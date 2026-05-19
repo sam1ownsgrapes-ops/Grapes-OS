@@ -1,0 +1,11 @@
+{"level":30,"time":1779147810181,"pid":23216,"hostname":"Yoga11","msg":"Server listening at http://0.0.0.0:8080"}
+Listening on:
+	http://localhost:8080
+	http://Yoga11:8080
+	http://0.0.0.0:8080
+{"level":30,"time":1779147877585,"pid":23216,"hostname":"Yoga11","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"localhost:8080","remoteAddress":"127.0.0.1","remotePort":53119},"msg":"incoming request"}
+{"level":30,"time":1779147877614,"pid":23216,"hostname":"Yoga11","reqId":"req-1","res":{"statusCode":200},"responseTime":28.122200000099838,"msg":"request completed"}
+{"level":30,"time":1779147877680,"pid":23216,"hostname":"Yoga11","reqId":"req-2","req":{"method":"GET","url":"/","hostname":"localhost:8080","remoteAddress":"127.0.0.1","remotePort":53120},"msg":"incoming request"}
+{"level":30,"time":1779147877685,"pid":23216,"hostname":"Yoga11","reqId":"req-2","res":{"statusCode":200},"responseTime":5.14159999974072,"msg":"request completed"}
+{"level":30,"time":1779147891995,"pid":23216,"hostname":"Yoga11","reqId":"req-3","req":{"method":"GET","url":"/","hostname":"localhost:8080","remoteAddress":"127.0.0.1","remotePort":58399},"msg":"incoming request"}
+{"level":30,"time":1779147892000,"pid":23216,"hostname":"Yoga11","reqId":"req-3","res":{"statusCode":200},"responseTime":4.4287999998778105,"msg":"request completed"}
