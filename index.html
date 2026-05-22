@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>GUST Browser</title>
+    <title>Grapes OS Browser</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
@@ -1303,7 +1303,7 @@
             border-color: var(--bd2);
         }
 
-        .gust-tooltip {
+        .Grapes OS-tooltip {
             position: fixed;
             background: rgba(13, 17, 23, 0.95);
             color: #fff;
@@ -1653,7 +1653,7 @@
         }
 
         
-        .gust-highlight {
+        .Grapes OS-highlight {
             outline: 2px solid var(--ac, #9de5ff) !important;
             outline-offset: 1px !important;
             box-shadow: 0 0 0 4px rgba(157, 229, 255, 0.2), inset 0 0 0 9999px rgba(157, 229, 255, 0.08) !important;
@@ -2016,27 +2016,27 @@
             line-height: 1;
         }
 
-        @keyframes gust-letter {
+        @keyframes Grapes OS-letter {
             0%   { opacity: 0; transform: translateX(-28px) skewX(-12deg); filter: blur(6px); }
             60%  { opacity: 1; transform: translateX(3px)  skewX(2deg);   filter: blur(0px); }
             80%  { transform: translateX(-1px) skewX(-0.5deg); }
             100% { opacity: 1; transform: translateX(0)    skewX(0deg);   filter: blur(0px); }
         }
-        @keyframes gust-icon {
+        @keyframes Grapes OS-icon {
             0%   { opacity: 0; transform: translateX(-44px); filter: blur(8px); }
             65%  { opacity: 1; transform: translateX(4px);   filter: blur(0px); }
             100% { opacity: 1; transform: translateX(0); }
         }
-        @keyframes gust-badge {
+        @keyframes Grapes OS-badge {
             0%   { opacity: 0; }
             100% { opacity: 1; }
         }
-        .gust-icon-anim  { animation: gust-icon   0.7s  cubic-bezier(0.22,1,0.36,1) both; }
-        .gust-letter-G   { animation: gust-letter 0.65s cubic-bezier(0.22,1,0.36,1) 0.10s both; }
-        .gust-letter-U   { animation: gust-letter 0.65s cubic-bezier(0.22,1,0.36,1) 0.20s both; }
-        .gust-letter-S   { animation: gust-letter 0.65s cubic-bezier(0.22,1,0.36,1) 0.30s both; }
-        .gust-letter-T   { animation: gust-letter 0.65s cubic-bezier(0.22,1,0.36,1) 0.40s both; }
-        .gust-badge-anim { animation: gust-badge  0.5s  ease-out               0.90s both; }
+        .Grapes OS-icon-anim  { animation: Grapes OS-icon   0.7s  cubic-bezier(0.22,1,0.36,1) both; }
+        .Grapes OS-letter-G   { animation: Grapes OS-letter 0.65s cubic-bezier(0.22,1,0.36,1) 0.10s both; }
+        .Grapes OS-letter-U   { animation: Grapes OS-letter 0.65s cubic-bezier(0.22,1,0.36,1) 0.20s both; }
+        .Grapes OS-letter-S   { animation: Grapes OS-letter 0.65s cubic-bezier(0.22,1,0.36,1) 0.30s both; }
+        .Grapes OS-letter-T   { animation: Grapes OS-letter 0.65s cubic-bezier(0.22,1,0.36,1) 0.40s both; }
+        .Grapes OS-badge-anim { animation: Grapes OS-badge  0.5s  ease-out               0.90s both; }
 
         .nt-brand i {
             font-size: 4.05rem;
@@ -3172,62 +3172,62 @@
         }
 
         /* ── Per-icon hover animations ── */
-        @keyframes _gust-pulse   { 0%,100%{transform:scale(1)}  50%{transform:scale(1.22)} }
-        @keyframes _gust-spin    { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
-        @keyframes _gust-spinrev { from{transform:rotate(0deg)} to{transform:rotate(-360deg)} }
-        @keyframes _gust-bob     { 0%,100%{transform:translateY(0)}  40%{transform:translateY(-4px)} 70%{transform:translateY(2px)} }
-        @keyframes _gust-shake   { 0%,100%{transform:rotate(0)}  20%{transform:rotate(-12deg)} 50%{transform:rotate(12deg)} 75%{transform:rotate(-7deg)} }
-        @keyframes _gust-ping    { 0%{transform:scale(1)} 40%{transform:scale(1.28)} 65%{transform:scale(.88)} 100%{transform:scale(1)} }
-        @keyframes _gust-tilt    { 0%,100%{transform:rotate(0deg)} 30%{transform:rotate(-14deg)} 70%{transform:rotate(10deg)} }
-        @keyframes _gust-pop     { 0%{transform:scale(1)} 35%{transform:scale(1.3)} 60%{transform:scale(.92)} 80%{transform:scale(1.08)} 100%{transform:scale(1)} }
-        @keyframes _gust-beam    { 0%,100%{transform:scaleX(1) scaleY(1)} 40%{transform:scaleX(1.2) scaleY(.85)} 70%{transform:scaleX(.9) scaleY(1.1)} }
+        @keyframes _Grapes OS-pulse   { 0%,100%{transform:scale(1)}  50%{transform:scale(1.22)} }
+        @keyframes _Grapes OS-spin    { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+        @keyframes _Grapes OS-spinrev { from{transform:rotate(0deg)} to{transform:rotate(-360deg)} }
+        @keyframes _Grapes OS-bob     { 0%,100%{transform:translateY(0)}  40%{transform:translateY(-4px)} 70%{transform:translateY(2px)} }
+        @keyframes _Grapes OS-shake   { 0%,100%{transform:rotate(0)}  20%{transform:rotate(-12deg)} 50%{transform:rotate(12deg)} 75%{transform:rotate(-7deg)} }
+        @keyframes _Grapes OS-ping    { 0%{transform:scale(1)} 40%{transform:scale(1.28)} 65%{transform:scale(.88)} 100%{transform:scale(1)} }
+        @keyframes _Grapes OS-tilt    { 0%,100%{transform:rotate(0deg)} 30%{transform:rotate(-14deg)} 70%{transform:rotate(10deg)} }
+        @keyframes _Grapes OS-pop     { 0%{transform:scale(1)} 35%{transform:scale(1.3)} 60%{transform:scale(.92)} 80%{transform:scale(1.08)} 100%{transform:scale(1)} }
+        @keyframes _Grapes OS-beam    { 0%,100%{transform:scaleX(1) scaleY(1)} 40%{transform:scaleX(1.2) scaleY(.85)} 70%{transform:scaleX(.9) scaleY(1.1)} }
 
         /* Connection — wired: pulse like signal */
         .settings-nav-item[data-section="connection"]:hover i {
-            animation: _gust-pulse .55s cubic-bezier(.34,1.56,.64,1) forwards;
+            animation: _Grapes OS-pulse .55s cubic-bezier(.34,1.56,.64,1) forwards;
         }
         /* Search — magnifying glass: bob/bounce */
         .settings-nav-item[data-section="search"]:hover i {
-            animation: _gust-bob .45s ease forwards;
+            animation: _Grapes OS-bob .45s ease forwards;
         }
         /* Privacy — shield: ping (protective thump) */
         .settings-nav-item[data-section="privacy"]:hover i {
-            animation: _gust-ping .4s ease forwards;
+            animation: _Grapes OS-ping .4s ease forwards;
         }
         /* Cache — database: beam (squish like stacking) */
         .settings-nav-item[data-section="cache"]:hover i {
-            animation: _gust-beam .45s ease forwards;
+            animation: _Grapes OS-beam .45s ease forwards;
         }
         /* Files & Media — film: shake (like a film reel clatter) */
         .settings-nav-item[data-section="filesandmedia"]:hover i {
-            animation: _gust-shake .45s ease forwards;
+            animation: _Grapes OS-shake .45s ease forwards;
         }
         /* Appearance — palette: spin */
         .settings-nav-item[data-section="appearance"]:hover i {
-            animation: _gust-spin .5s cubic-bezier(.34,1.56,.64,1) forwards;
+            animation: _Grapes OS-spin .5s cubic-bezier(.34,1.56,.64,1) forwards;
         }
         /* Home Screen — house: bob */
         .settings-nav-item[data-section="homescreen"]:hover i {
-            animation: _gust-bob .42s ease forwards;
+            animation: _Grapes OS-bob .42s ease forwards;
         }
         /* Shortcuts — keyboard: tilt (like pressing a key) */
         .settings-nav-item[data-section="shortcuts"]:hover i {
-            animation: _gust-tilt .4s ease forwards;
+            animation: _Grapes OS-tilt .4s ease forwards;
         }
         /* Language — globe: spin reverse (like a globe turning) */
         .settings-nav-item[data-section="language"]:hover i {
-            animation: _gust-spinrev .55s cubic-bezier(.34,1.56,.64,1) forwards;
+            animation: _Grapes OS-spinrev .55s cubic-bezier(.34,1.56,.64,1) forwards;
         }
         /* Tutorial — map: pop */
         .settings-nav-item[data-section="tutorial"]:hover i {
-            animation: _gust-pop .45s ease forwards;
+            animation: _Grapes OS-pop .45s ease forwards;
         }
         /* About — info circle: pulse */
         .settings-nav-item[data-section="about"]:hover i {
-            animation: _gust-pulse .45s cubic-bezier(.34,1.56,.64,1) forwards;
+            animation: _Grapes OS-pulse .45s cubic-bezier(.34,1.56,.64,1) forwards;
         }
         /* Fallback — rotate-left: elastic rewind (retry/rollback feel) */
-        @keyframes _gust-rewind {
+        @keyframes _Grapes OS-rewind {
             0%   { transform: rotate(0deg) scale(1); }
             30%  { transform: rotate(-200deg) scale(1.18); }
             65%  { transform: rotate(-340deg) scale(0.92); }
@@ -3661,7 +3661,7 @@
                     <i class="fas fa-lock" id="securityIcon"></i>
                     <span id="securityText"></span>
                 </div>
-                <input type="text" class="url-input" id="url" value="gust://newtab" spellcheck="false"
+                <input type="text" class="url-input" id="url" value="Grapes OS://newtab" spellcheck="false"
                     autocomplete="off" placeholder="Search or enter address">
                 <span class="omni-drop-hint" id="omniDropHint">
                     <i class="fas fa-arrow-right-to-bracket"></i>drop to navigate
@@ -3723,7 +3723,7 @@
                     </button>
 
                     
-                    <div id="gustCredit"
+                    <div id="Grapes OSCredit"
                         style="position:absolute; bottom:20px; right:24px; z-index:10; color:rgba(255,255,255,1); font-size:18px; font-weight:600; font-family:var(--ui); display:flex; align-items:center; gap:5px; pointer-events:none; user-select:none; text-shadow:0 1px 4px rgba(0,0,0,0.6); letter-spacing:0.02em;">
                         Made with <i class="fas fa-heart" style="color:#ff6b8a; font-size:15px;"></i> by Nautilus Labs
                     </div>
@@ -3734,11 +3734,11 @@
                             <div class="nt-time" id="ntTime" style="display:flex;align-items:center;gap:12px;">--:-- <i id="ntTimeIcon" class="fas fa-moon" style="font-size:0.85em;color:var(--ac);"></i></div>
                         </div>
                         <div class="nt-brand" style="position:relative;">
-                            <i class="fas fa-wind gust-icon-anim" style="margin-right: -4px;"></i>
+                            <i class="fas fa-wind Grapes OS-icon-anim" style="margin-right: -4px;"></i>
                             <span style="letter-spacing: 3px; display:inline-flex;">
-                                <span class="gust-letter-G">G</span><span class="gust-letter-U">U</span><span class="gust-letter-S">S</span><span class="gust-letter-T">T</span>
+                                <span class="Grapes OS-letter-G">G</span><span class="Grapes OS-letter-U">U</span><span class="Grapes OS-letter-S">S</span><span class="Grapes OS-letter-T">T</span>
                             </span>
-                            <span class="gust-badge-anim" style="
+                            <span class="Grapes OS-badge-anim" style="
                                 font-size: 11px;
                                 font-weight: 700;
                                 letter-spacing: 0.05em;
@@ -3803,7 +3803,7 @@
                     <div class="adblock-header">
                         <div class="adblock-title">
                             <i class="fas fa-shield-halved" style="color: var(--ac);"></i>
-                            <span>Gust Adblock</span>
+                            <span>Grapes OS Adblock</span>
                         </div>
                         <button id="adblockCloseBtn"
                             style="background:none; border:none; color:var(--tx2); cursor:pointer;">
@@ -4411,7 +4411,7 @@
                                         <div class="settings-switch-row">
                                             <div>
                                                 <div class="settings-switch-label">Start in fullscreen</div>
-                                                <div class="settings-hint">Automatically enter fullscreen on your first click or keypress after opening Gust.</div>
+                                                <div class="settings-hint">Automatically enter fullscreen on your first click or keypress after opening Grapes OS.</div>
                                             </div>
                                             <div class="settings-switch on" id="settingsAutoFullscreenSwitch">
                                                 <div class="settings-switch-track">
@@ -4732,7 +4732,7 @@
                             </div>
                             <div class="settings-section" data-section="about" style="display:none;">
                                 <div class="settings-card">
-                                    <div class="settings-card-head"><i class="fas fa-info-circle"></i> About Gust
+                                    <div class="settings-card-head"><i class="fas fa-info-circle"></i> About Grapes OS
                                     </div>
                                     <div class="settings-card-body">
                                         <div
@@ -4740,7 +4740,7 @@
                                             <div
                                                 style="color:var(--ac); font-weight:700; font-size:18px; display:flex; align-items:center; gap:10px;">
                                                 <i class="fas fa-wind" style="font-size:22px;"></i>
-                                                GUST Browser
+                                                Grapes OS Browser
                                             </div>
                                             <span
                                                 style="font-size:11px; font-weight:700; letter-spacing:0.05em; color:var(--ac); background:rgba(157,229,255,0.10); border:1px solid rgba(157,229,255,0.35); border-radius:6px; padding:2px 7px; font-family:var(--mono);">v1.0</span>
@@ -4754,11 +4754,11 @@
                                                     <i class="fas fa-globe" style="color:var(--ac);"></i> How it
                                                     works
                                                 </div>
-                                                Gust is a <strong style="color:var(--tx);">static</strong> web proxy
+                                                Grapes OS is a <strong style="color:var(--tx);">static</strong> web proxy
                                                     browser that runs entirely inside a single HTML file.
-                                                When you navigate to a URL, Gust fetches the target site's HTML,
+                                                When you navigate to a URL, Grapes OS fetches the target site's HTML,
                                                 CSS, scripts, and assets through <em>Wisp</em>, then rewrites
-                                                all resource URLs and injects them into a sandboxed iframe. Gust can be run inside any HTML editor, <code
+                                                all resource URLs and injects them into a sandboxed iframe. Grapes OS can be run inside any HTML editor, <code
                                                     style="background:var(--bg3); padding:2px 6px; border-radius:4px; font-size:12px;">iframe</code>, file, or blob. It's ultra lightweight, packed with features, and is near impossible to block for admins.
                                                 
                                             </div>
@@ -4823,7 +4823,7 @@
                                                         <span style="color:var(--tx3);font-size:11px;margin-left:4px;">WebSocket proxy tunnelling</span>
                                                     </div>
                                                     <div>
-                                                        <span style="color:var(--tx);font-weight:600;">Original Gust Framework &amp; JS</span>
+                                                        <span style="color:var(--tx);font-weight:600;">Original Grapes OS Framework &amp; JS</span>
                                                         <span style="color:var(--tx3)"> — </span>
                                                         lanefiedler731-gif
                                                     </div>
@@ -4925,7 +4925,7 @@
                                         <div class="settings-switch-row" style="align-items:center;">
                                             <div>
                                                 <div class="settings-switch-label">Max retry attempts (main)</div>
-                                                <div class="settings-hint">How many times Gust retries on the primary WISP server before switching to the fallback.</div>
+                                                <div class="settings-hint">How many times Grapes OS retries on the primary WISP server before switching to the fallback.</div>
                                             </div>
                                             <div style="display:flex; align-items:center; gap:8px; flex-shrink:0;">
                                                 <button class="settings-btn-icon" id="mainRetryMinus" title="Decrease"><i class="fas fa-minus"></i></button>
@@ -4936,7 +4936,7 @@
                                         <div class="settings-switch-row" style="align-items:center; margin-top:12px;">
                                             <div>
                                                 <div class="settings-switch-label">Max retry attempts (fallback)</div>
-                                                <div class="settings-hint">How many times Gust will attempt the fallback WISP before giving up and showing an error.</div>
+                                                <div class="settings-hint">How many times Grapes OS will attempt the fallback WISP before giving up and showing an error.</div>
                                             </div>
                                             <div style="display:flex; align-items:center; gap:8px; flex-shrink:0;">
                                                 <button class="settings-btn-icon" id="fallbackRetryMinus" title="Decrease"><i class="fas fa-minus"></i></button>
@@ -5047,7 +5047,7 @@
                                         <div class="settings-switch-row">
                                             <div>
                                                 <div class="settings-switch-label">Auto-download unknown files</div>
-                                                <div class="settings-hint">When Gust receives a file it can't display (e.g. .zip, .exe), automatically trigger a browser download instead of showing an error page.</div>
+                                                <div class="settings-hint">When Grapes OS receives a file it can't display (e.g. .zip, .exe), automatically trigger a browser download instead of showing an error page.</div>
                                             </div>
                                             <div class="settings-switch" id="mediaDownloadSwitch">
                                                 <div class="settings-switch-track"><div class="settings-switch-thumb"></div></div>
@@ -5253,14 +5253,14 @@
 
     <script src="https://cdn.jsdelivr.net/npm/libcurl.js@latest/libcurl_full.js" defer
         onload="window._libcurlReady=true;"
-        onerror="(function(){ const reason='The libcurl.js script could not be fetched from cdn.jsdelivr.net. The CDN may be unreachable or blocked.'; window._libcurlLoadError=reason; console.error('[GUST] libcurl.js failed to load:', reason); })();"
+        onerror="(function(){ const reason='The libcurl.js script could not be fetched from cdn.jsdelivr.net. The CDN may be unreachable or blocked.'; window._libcurlLoadError=reason; console.error('[Grapes OS] libcurl.js failed to load:', reason); })();"
     ></script>
     <script>
         (function () {
             // ── Per-instance storage isolation ────────────────────────────────
             // Each downloaded copy of this file gets a unique instance ID so
             // that multiple tabs/windows (all on file://) never share data.
-            const _INST_META_KEY = '__gust_inst__';
+            const _INST_META_KEY = '__Grapes OS_inst__';
             let _INST_ID;
             try {
                 _INST_ID = window._sessionInstId;
@@ -5312,7 +5312,7 @@
             const _IDB_PFX = _INST_ID + '_';
             // ─────────────────────────────────────────────────────────────────
 
-            let WISP = (function () { try { return ls.getItem('gust:wisp:v1') || "wss://wisp.mercurywork.shop/"; } catch { return "wss://wisp.mercurywork.shop/"; } })();
+            let WISP = (function () { try { return ls.getItem('Grapes OS:wisp:v1') || "wss://wisp.mercurywork.shop/"; } catch { return "wss://wisp.mercurywork.shop/"; } })();
             const $ = s => document.getElementById(s);
             const frame = $('frame');
             let _pendingNavHint = null;
@@ -5421,16 +5421,16 @@
             let hist = [];
             let histIdx = -1;
             let navId = 0; 
-            let selectedEngine = (function () { try { return ls.getItem('gust:engine:v1') || 'brave'; } catch { return 'brave'; } })();
+            let selectedEngine = (function () { try { return ls.getItem('Grapes OS:engine:v1') || 'brave'; } catch { return 'brave'; } })();
 
             let totalRequests = 0;
             let pendingRequests = 0;
             let cachedHits = 0;
             let streamCount = 0;
             let idleTimer = null;
-            const HOME_INTERNAL = "gust://newtab";
+            const HOME_INTERNAL = "Grapes OS://newtab";
 
-            const SETTINGS_INTERNAL = "gust://settings";
+            const SETTINGS_INTERNAL = "Grapes OS://settings";
 
             const VALID_SETTINGS_SECTIONS = new Set([
                 'connection','search','privacy','cache','filesandmedia',
@@ -5438,14 +5438,14 @@
             ]);
 
             function isSettingsPage(url) {
-                return url === SETTINGS_INTERNAL || (url && url.startsWith("gust://settings/"));
+                return url === SETTINGS_INTERNAL || (url && url.startsWith("Grapes OS://settings/"));
             }
 
             function isInvalidInternal(url) {
-                if (!url || !url.startsWith("gust://")) return false;
+                if (!url || !url.startsWith("Grapes OS://")) return false;
                 if (url === HOME_INTERNAL || url === SETTINGS_INTERNAL) return false;
-                if (url.startsWith("gust://settings/")) {
-                    const section = url.replace("gust://settings/", "").split("/")[0];
+                if (url.startsWith("Grapes OS://settings/")) {
+                    const section = url.replace("Grapes OS://settings/", "").split("/")[0];
                     return !VALID_SETTINGS_SECTIONS.has(section);
                 }
                 return true;
@@ -5460,7 +5460,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Error - Gust Browser</title>
+    <title>Error - Grapes OS Browser</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
@@ -5710,9 +5710,9 @@
 </head>
 <body>
     <div class="error-content">
-        <div class="error-brand" onclick="window.parent.postMessage({t:'n', u:'gust://newtab'}, '*')">
+        <div class="error-brand" onclick="window.parent.postMessage({t:'n', u:'Grapes OS://newtab'}, '*')">
             <i class="fas fa-wind"></i>
-            <span>GUST</span>
+            <span>Grapes OS</span>
         </div>
         
         <div class="error-header">
@@ -5763,18 +5763,18 @@
                 bing: "https://www.bing.com/search?q="
             };
             const WALLPAPER_QUERIES = ["aurora", "nebula", "ocean", "fog", "desert", "mountain", "city night", "forest", "abstract"];
-            const WALLPAPER_STORAGE_KEY = "gust:newtab-wallpaper:v1";
-            const FAV_KEY = "gust:favorites:v1";
-            const BM_KEY = "gust:bookmarks:v1";
+            const WALLPAPER_STORAGE_KEY = "Grapes OS:newtab-wallpaper:v1";
+            const FAV_KEY = "Grapes OS:favorites:v1";
+            const BM_KEY = "Grapes OS:bookmarks:v1";
             let favorites = [];
             const defaultBookmarks = [];
             let bookmarks = [];
-            let blockEnabled = (function () { try { const saved = ls.getItem('gust:block:v1'); return saved !== null ? saved === 'true' : true; } catch { return true; } })();
+            let blockEnabled = (function () { try { const saved = ls.getItem('Grapes OS:block:v1'); return saved !== null ? saved === 'true' : true; } catch { return true; } })();
             let tabCacheEnabled = true;
             let panelWidthPersist = true; 
             let wallpaperIdx = 0;
 
-            const TAB_CACHE_KEY = "gust:tabs:v1";
+            const TAB_CACHE_KEY = "Grapes OS:tabs:v1";
 
             function saveTabs() {
                 try {
@@ -5953,7 +5953,7 @@
                 } catch (e) {}
                 // 3. postMessage so any future media created inside the frame is also muted
                 try {
-                    frame.contentWindow?.postMessage({ type: 'gust:setMuted', muted: !!muted }, '*');
+                    frame.contentWindow?.postMessage({ type: 'Grapes OS:setMuted', muted: !!muted }, '*');
                 } catch (e) {}
             }
 
@@ -6070,8 +6070,8 @@
                 if (tab.url === HOME_INTERNAL) {
                     showNewTab(false);
                 } else if (isSettingsPage(tab.url) && !tab.hasError) {
-                    const section = tab.url.replace("gust://settings/", "") || "connection";
-                    showSettingsPage(false, section === "gust://settings" ? "connection" : section);
+                    const section = tab.url.replace("Grapes OS://settings/", "") || "connection";
+                    showSettingsPage(false, section === "Grapes OS://settings" ? "connection" : section);
                 } else if (tab.blobSrc) {
                     newtab.classList.remove("active");
                     hideSettingsPage();
@@ -6206,13 +6206,13 @@
                 });
                 updateTabScrollBtns();
                 setTimeout(scrollActiveTabIntoView, 50);
-                if (!tabStrip._gustLayoutObserver) {
-                    tabStrip._gustLayoutObserver = new MutationObserver(() => {
+                if (!tabStrip._Grapes OSLayoutObserver) {
+                    tabStrip._Grapes OSLayoutObserver = new MutationObserver(() => {
                         try {
                             _computeSyncState();
                         } catch (e) {}
                     });
-                    tabStrip._gustLayoutObserver.observe(tabStrip, { childList: true });
+                    tabStrip._Grapes OSLayoutObserver.observe(tabStrip, { childList: true });
                 }
             }
 
@@ -6564,8 +6564,8 @@
             let wsSeq = 0;
             const wsMap = new Map();
 
-            let MAX_CONCURRENT = (function () { try { return parseInt(ls.getItem('gust:idlethreads:v1')) || 6; } catch { return 6; } })();
-            let MAX_CONCURRENT_ACTIVE = (function () { try { return parseInt(ls.getItem('gust:activethreads:v1')) || 6; } catch { return 6; } })();
+            let MAX_CONCURRENT = (function () { try { return parseInt(ls.getItem('Grapes OS:idlethreads:v1')) || 6; } catch { return 6; } })();
+            let MAX_CONCURRENT_ACTIVE = (function () { try { return parseInt(ls.getItem('Grapes OS:activethreads:v1')) || 6; } catch { return 6; } })();
             let _isPageLoading = false;
             let syncState = 1;
             let layoutChecksum = 0;
@@ -6658,7 +6658,7 @@
                 'ins.adsbygoogle', 'div[data-ad-slot]', 'div[data-ad-unit]'
             ];
 
-            const FILTER_KEY = "gust:custom-filters:v1";
+            const FILTER_KEY = "Grapes OS:custom-filters:v1";
             let cachedCustomFilters = null;
             let _filterObserverReady = false;
             function getCustomFilters() {
@@ -6731,7 +6731,7 @@
             function faviconFor(url) {
                 try {
                     const u = new URL(url);
-                    const proxyFavicons = (() => { try { return ls.getItem('gust:favicon-proxy:v1') === '1'; } catch { return false; } })();
+                    const proxyFavicons = (() => { try { return ls.getItem('Grapes OS:favicon-proxy:v1') === '1'; } catch { return false; } })();
                     if (proxyFavicons) {
                         return '__proxy_favicon__' + encodeURIComponent(`https://www.google.com/s2/favicons?domain=${encodeURIComponent(u.hostname)}&sz=64`);
                     }
@@ -7028,7 +7028,7 @@
                     return;
                 }
 
-                if (!url || url === HOME_INTERNAL || isSettingsPage(url) || url.startsWith("gust://")) {
+                if (!url || url === HOME_INTERNAL || isSettingsPage(url) || url.startsWith("Grapes OS://")) {
                     securityChip.classList.add("secure");
                     if (securityIcon) securityIcon.className = "fas fa-lock";
                     securityText.textContent = "";
@@ -7054,7 +7054,7 @@
                 const now = new Date();
                 const h = now.getHours();
                 const mm = String(now.getMinutes()).padStart(2, "0");
-                const use24hr = ls.getItem('gust:24hrclock:v1') === 'true';
+                const use24hr = ls.getItem('Grapes OS:24hrclock:v1') === 'true';
                 if (use24hr) {
                     if (ntTime) ntTime.childNodes[0].textContent = `${String(h).padStart(2, '0')}:${mm} `;
                 } else {
@@ -7232,22 +7232,22 @@
                 ntFavorites.appendChild(addWrapper);
             }
 
-            let _gustAnimLocked = false;
-            let _gustAnimTimer = null;
+            let _Grapes OSAnimLocked = false;
+            let _Grapes OSAnimTimer = null;
 
-            function playGustAnimation(delay) {
-                if (_gustAnimLocked) return;
+            function playGrapes OSAnimation(delay) {
+                if (_Grapes OSAnimLocked) return;
                 
                 const getBrandEls = () => {
-                    const icon = document.querySelector('.nt-brand .gust-icon-anim');
-                    const letters = document.querySelectorAll('.nt-brand .gust-letter-G, .nt-brand .gust-letter-U, .nt-brand .gust-letter-S, .nt-brand .gust-letter-T');
-                    const badge = document.querySelector('.nt-brand .gust-badge-anim');
+                    const icon = document.querySelector('.nt-brand .Grapes OS-icon-anim');
+                    const letters = document.querySelectorAll('.nt-brand .Grapes OS-letter-G, .nt-brand .Grapes OS-letter-U, .nt-brand .Grapes OS-letter-S, .nt-brand .Grapes OS-letter-T');
+                    const badge = document.querySelector('.nt-brand .Grapes OS-badge-anim');
                     return [icon, ...letters, badge].filter(Boolean);
                 };
                 getBrandEls().forEach(el => { el.style.animation = 'none'; el.style.opacity = '0'; });
-                if (_gustAnimTimer) { clearTimeout(_gustAnimTimer); _gustAnimTimer = null; }
-                _gustAnimTimer = setTimeout(() => {
-                    _gustAnimTimer = null;
+                if (_Grapes OSAnimTimer) { clearTimeout(_Grapes OSAnimTimer); _Grapes OSAnimTimer = null; }
+                _Grapes OSAnimTimer = setTimeout(() => {
+                    _Grapes OSAnimTimer = null;
                     getBrandEls().forEach(el => { el.style.opacity = ''; el.style.animation = ''; });
                 }, delay ?? 80);
             }
@@ -7272,7 +7272,7 @@
                 updateClock();
                 loadSavedWallpaper();
                 renderFavorites();
-                playGustAnimation();
+                playGrapes OSAnimation();
                 if (push) {
                     hist = hist.slice(0, histIdx + 1);
                     hist.push(HOME_INTERNAL);
@@ -7296,7 +7296,7 @@
             function setBlockEnabled(on) {
                 blockEnabled = !!on;
                 try {
-                    ls.setItem('gust:block:v1', blockEnabled ? 'true' : 'false');
+                    ls.setItem('Grapes OS:block:v1', blockEnabled ? 'true' : 'false');
                 } catch (e) { }
                 if (blockToggle) {
                     blockToggle.classList.toggle("on", blockEnabled);
@@ -7340,7 +7340,7 @@
 
             function loadTabCacheEnabled() {
                 try {
-                    const saved = ls.getItem('gust:tabcache:v1');
+                    const saved = ls.getItem('Grapes OS:tabcache:v1');
                     if (saved !== null) tabCacheEnabled = (saved === 'true');
                 } catch (e) { }
             }
@@ -7348,7 +7348,7 @@
             function setTabCacheEnabled(val) {
                 tabCacheEnabled = val;
                 try {
-                    ls.setItem('gust:tabcache:v1', val ? 'true' : 'false');
+                    ls.setItem('Grapes OS:tabcache:v1', val ? 'true' : 'false');
                 } catch (e) { }
             }
 
@@ -7361,14 +7361,14 @@
             }
 
             try {
-                const saved = ls.getItem('gust:panelwidthpersist:v1');
+                const saved = ls.getItem('Grapes OS:panelwidthpersist:v1');
                 if (saved !== null) panelWidthPersist = (saved === 'true');
             } catch (e) { }
 
             function setPanelWidthPersist(val) {
                 panelWidthPersist = val;
                 try {
-                    ls.setItem('gust:panelwidthpersist:v1', val ? 'true' : 'false');
+                    ls.setItem('Grapes OS:panelwidthpersist:v1', val ? 'true' : 'false');
                 } catch (e) { }
             }
 
@@ -7402,7 +7402,7 @@
 
             function inspectCurrentPage() {
                 if (pageUrl === HOME_INTERNAL || isSettingsPage(pageUrl)) {
-                    elementsTree.innerHTML = '<li style="color: var(--tx3); padding: 8px;">Cannot inspect internal Gust pages</li>';
+                    elementsTree.innerHTML = '<li style="color: var(--tx3); padding: 8px;">Cannot inspect internal Grapes OS pages</li>';
                     return;
                 }
 
@@ -7603,7 +7603,7 @@
                         const styles = {};
                         styleProps.forEach(p => { styles[p] = cs.getPropertyValue(p); });
                         // Reuse the stylesResult rendering by dispatching a fake message
-                        window.dispatchEvent(new MessageEvent('message', { data: { type: 'gust:stylesResult', styles } }));
+                        window.dispatchEvent(new MessageEvent('message', { data: { type: 'Grapes OS:stylesResult', styles } }));
                     } catch(e) {
                         content.innerHTML = '<span style="color:var(--tx3)">Could not read styles</span>';
                     }
@@ -7615,7 +7615,7 @@
                             ? element.ownerDocument.defaultView.getComputedStyle(element)
                             : getComputedStyle(element);
                         const parseNum = v => parseFloat(v) || 0;
-                        window.dispatchEvent(new MessageEvent('message', { data: { type: 'gust:boxResult', box: {
+                        window.dispatchEvent(new MessageEvent('message', { data: { type: 'Grapes OS:boxResult', box: {
                             width: r.width, height: r.height, top: r.top, left: r.left,
                             bottom: r.bottom, right: r.right,
                             marginTop:    parseNum(cs.marginTop),
@@ -7683,7 +7683,7 @@
             }
 
             window.addEventListener('message', (e) => {
-                if (e.data?.type === 'gust:stylesResult') {
+                if (e.data?.type === 'Grapes OS:stylesResult') {
                     if (currentDetailTab !== 'styles') return;
                     const content = $('elemDetailContent');
                     if (!content) return;
@@ -7710,7 +7710,7 @@
                     });
                     content.innerHTML = html || '<span style="color:var(--tx3)">No notable styles</span>';
                 }
-                if (e.data?.type === 'gust:boxResult') {
+                if (e.data?.type === 'Grapes OS:boxResult') {
                     if (currentDetailTab !== 'box') return;
                     const content = $('elemDetailContent');
                     if (!content) return;
@@ -7779,12 +7779,12 @@
             });
             $('ctxScrollTo')?.addEventListener('click', () => {
                 if (selectedElement) {
-                    frame.contentWindow?.postMessage({ type: 'gust:scrollTo', selector: getSelector(selectedElement) }, '*');
+                    frame.contentWindow?.postMessage({ type: 'Grapes OS:scrollTo', selector: getSelector(selectedElement) }, '*');
                 }
             });
             $('ctxHideElement')?.addEventListener('click', () => {
                 if (selectedElement) {
-                    frame.contentWindow?.postMessage({ type: 'gust:hideElement', selector: getSelector(selectedElement) }, '*');
+                    frame.contentWindow?.postMessage({ type: 'Grapes OS:hideElement', selector: getSelector(selectedElement) }, '*');
                 }
             });
 
@@ -8108,10 +8108,10 @@
             function normUrl(u) {
                 u = (u || "").trim();
                 if (!u) return "";
-                if (/^gust:\/\/settings(\/.*)?$/i.test(u)) return u.toLowerCase().startsWith("gust://settings/") ? u : SETTINGS_INTERNAL;
-                if (/^gust:\/\/newtab$/i.test(u) || /^about:newtab$/i.test(u)) return HOME_INTERNAL;
-                // Unknown gust:// URLs pass through — go() will show an error page
-                if (u.startsWith("gust://")) return u;
+                if (/^Grapes OS:\/\/settings(\/.*)?$/i.test(u)) return u.toLowerCase().startsWith("Grapes OS://settings/") ? u : SETTINGS_INTERNAL;
+                if (/^Grapes OS:\/\/newtab$/i.test(u) || /^about:newtab$/i.test(u)) return HOME_INTERNAL;
+                // Unknown Grapes OS:// URLs pass through — go() will show an error page
+                if (u.startsWith("Grapes OS://")) return u;
                 try {
                     return new URL(u).href;
                 } catch { }
@@ -8330,13 +8330,13 @@
                 if (pageUrl && !headers.Origin && !headers.origin) headers.Origin = new URL(pageUrl).origin;
                 if (pageUrl && !headers.Referer && !headers.referer) headers.Referer = pageUrl;
                 if (!headers['User-Agent'] && !headers['user-agent']) {
-                    const _savedReqUA = (() => { try { return ls.getItem('gust:ua:request:v1'); } catch { return null; } })();
+                    const _savedReqUA = (() => { try { return ls.getItem('Grapes OS:ua:request:v1'); } catch { return null; } })();
                     headers['User-Agent'] = _savedReqUA || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
                 }
                 if (!headers['Accept-Language'] && !headers['accept-language']) {
                     headers['Accept-Language'] = 'en-US,en;q=0.9';
                 }
-                if (!headers['Sec-Fetch-Mode'] && !headers['sec-fetch-mode'] && mediaPref('gust:media:headers:v1')) {
+                if (!headers['Sec-Fetch-Mode'] && !headers['sec-fetch-mode'] && mediaPref('Grapes OS:media:headers:v1')) {
                     // Determine correct Sec-Fetch-* values based on request context
                     const reqOrigin = (() => { try { return new URL(url).origin; } catch { return ''; } })();
                     const pageOrigin = (() => { try { return pageUrl ? new URL(pageUrl).origin : ''; } catch { return ''; } })();
@@ -8473,7 +8473,7 @@
                 const mime = ct.split(";")[0].trim() || "application/octet-stream";
                 // Handle partial content (206) for range requests - return only the requested slice
                 let buf;
-                const rangeReq = mediaPref('gust:media:range:v1') && (headers['Range'] || headers['range']);
+                const rangeReq = mediaPref('Grapes OS:media:range:v1') && (headers['Range'] || headers['range']);
                 const isPartial = resp.status === 206;
                 if (isPartial || rangeReq) {
                     buf = await resp.arrayBuffer();
@@ -8752,7 +8752,7 @@ try { Object.defineProperty(window, '__webpack_public_path__', { get: () => wind
 //    (e.g. new URL('./chunk.js', import.meta.url)) point at blob:null/… and
 //    fail.  We expose the real page origin so framework resolvers work.
 try {
-  Object.defineProperty(window, '__GUST_REAL_BASE__', { value: BASE, configurable: true });
+  Object.defineProperty(window, '__Grapes OS_REAL_BASE__', { value: BASE, configurable: true });
 } catch {}
 
 // 2. Next.js reads __NEXT_DATA__.assetPrefix to build /_next/static/… URLs.
@@ -8778,17 +8778,17 @@ try {
 //    the URL constructor so new URL(relative, blobHref) → new URL(relative, BASE).
 try {
   const _OrigURL = window.URL;
-  function _GustURL(url, base) {
+  function _Grapes OSURL(url, base) {
     if (base && typeof base === 'string' && /^blob:/i.test(base)) {
       base = BASE;
     }
     return new _OrigURL(url, base);
   }
-  _GustURL.createObjectURL = _OrigURL.createObjectURL.bind(_OrigURL);
-  _GustURL.revokeObjectURL = _OrigURL.revokeObjectURL.bind(_OrigURL);
-  _GustURL.canParse       = _OrigURL.canParse ? _OrigURL.canParse.bind(_OrigURL) : undefined;
-  Object.setPrototypeOf(_GustURL, _OrigURL);
-  try { window.URL = _GustURL; } catch {}
+  _Grapes OSURL.createObjectURL = _OrigURL.createObjectURL.bind(_OrigURL);
+  _Grapes OSURL.revokeObjectURL = _OrigURL.revokeObjectURL.bind(_OrigURL);
+  _Grapes OSURL.canParse       = _OrigURL.canParse ? _OrigURL.canParse.bind(_OrigURL) : undefined;
+  Object.setPrototypeOf(_Grapes OSURL, _OrigURL);
+  try { window.URL = _Grapes OSURL; } catch {}
 } catch {}
 // ───────────────────────────────────────────────────────────────────────────
 
@@ -8876,34 +8876,34 @@ window.addEventListener('message', e => {
     if (d.a === 'error') { const evt = new Event('error'); ws.dispatchEvent(evt); ws.onerror?.(evt); }
     if (d.a === 'close') { ws.readyState = 3; const evt = new CloseEvent('close', { code: d.code || 1000, reason: d.reason || '', wasClean: d.wasClean }); ws.dispatchEvent(evt); ws.onclose?.(evt); wsClients.delete(d.i); }
   }
-  if (d.type === 'gust:highlight' && d.selector) {
+  if (d.type === 'Grapes OS:highlight' && d.selector) {
     try {
-      document.querySelectorAll('.gust-highlight').forEach(el => el.classList.remove('gust-highlight'));
+      document.querySelectorAll('.Grapes OS-highlight').forEach(el => el.classList.remove('Grapes OS-highlight'));
       const el = document.querySelector(d.selector);
-      if (el) { el.classList.add('gust-highlight'); el.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+      if (el) { el.classList.add('Grapes OS-highlight'); el.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
     } catch (e) {}
   }
-  if (d.type === 'gust:clearHighlight') {
-    try { document.querySelectorAll('.gust-highlight').forEach(el => el.classList.remove('gust-highlight')); } catch(e) {}
+  if (d.type === 'Grapes OS:clearHighlight') {
+    try { document.querySelectorAll('.Grapes OS-highlight').forEach(el => el.classList.remove('Grapes OS-highlight')); } catch(e) {}
   }
-  if (d.type === 'gust:getStyles' && d.selector) {
+  if (d.type === 'Grapes OS:getStyles' && d.selector) {
     try {
       const el = document.querySelector(d.selector);
       if (el) {
         const cs = getComputedStyle(el);
         const styles = {};
         ['display','position','width','height','margin','margin-top','margin-right','margin-bottom','margin-left','padding','padding-top','padding-right','padding-bottom','padding-left','color','background','background-color','font-size','font-weight','font-family','border','border-radius','flex','grid','z-index','overflow','opacity','transform','box-shadow','line-height','text-align'].forEach(p => { styles[p] = cs.getPropertyValue(p); });
-        parent.postMessage({ type: 'gust:stylesResult', styles }, '*');
+        parent.postMessage({ type: 'Grapes OS:stylesResult', styles }, '*');
       }
     } catch(e) {}
   }
-  if (d.type === 'gust:getBox' && d.selector) {
+  if (d.type === 'Grapes OS:getBox' && d.selector) {
     try {
       const el = document.querySelector(d.selector);
       if (el) {
         const r = el.getBoundingClientRect();
         const cs = getComputedStyle(el);
-        parent.postMessage({ type: 'gust:boxResult', box: {
+        parent.postMessage({ type: 'Grapes OS:boxResult', box: {
           width: r.width, height: r.height, top: r.top, left: r.left,
           marginTop: cs.marginTop, marginRight: cs.marginRight, marginBottom: cs.marginBottom, marginLeft: cs.marginLeft,
           paddingTop: cs.paddingTop, paddingRight: cs.paddingRight, paddingBottom: cs.paddingBottom, paddingLeft: cs.paddingLeft
@@ -8911,10 +8911,10 @@ window.addEventListener('message', e => {
       }
     } catch(e) {}
   }
-  if (d.type === 'gust:scrollTo' && d.selector) {
+  if (d.type === 'Grapes OS:scrollTo' && d.selector) {
     try { document.querySelector(d.selector)?.scrollIntoView({ behavior: 'smooth', block: 'center' }); } catch(e) {}
   }
-  if (d.type === 'gust:spellcheck') {
+  if (d.type === 'Grapes OS:spellcheck') {
     try { document.querySelectorAll('input, textarea').forEach(el => el.spellcheck = !!d.enabled); } catch(e) {}
   }
 });
@@ -9251,14 +9251,14 @@ function processEl(el) {
       if (poster && !/^(data:|blob:)/i.test(poster) && !el.getAttribute('data-real-poster')) el.poster = poster;
     }
   }
-  // Defuse anchor hrefs: store real URL in data-gust-href, set href to javascript:void(0)
+  // Defuse anchor hrefs: store real URL in data-Grapes OS-href, set href to javascript:void(0)
   // so the browser can NEVER navigate the iframe natively via a link click.
   if (tag === 'A') {
     const href = el.getAttribute('href');
     if (href && !/^(javascript:|#|data:|blob:|mailto:|tel:)/i.test(href)) {
       try {
         const abs = resolve(href);
-        el.setAttribute('data-gust-href', abs);
+        el.setAttribute('data-Grapes OS-href', abs);
         el.setAttribute('href', 'javascript:void(0)');
       } catch {}
     }
@@ -9283,14 +9283,14 @@ const observer = new MutationObserver(muts => {
 observer.observe(document, { childList: true, subtree: true });
 
 // Pre-defuse all existing anchors on initial load.
-// Store real URL in data-gust-href, set href=javascript:void(0) so the
+// Store real URL in data-Grapes OS-href, set href=javascript:void(0) so the
 // browser can never navigate the iframe natively from a link click.
 document.querySelectorAll('a[href], area[href]').forEach(a => {
   const href = a.getAttribute('href');
   if (href && !/^(javascript:|#|data:|blob:|mailto:|tel:)/i.test(href)) {
     try {
       const abs = resolve(href);
-      a.setAttribute('data-gust-href', abs);
+      a.setAttribute('data-Grapes OS-href', abs);
       a.setAttribute('href', 'javascript:void(0)');
     } catch {}
   }
@@ -9365,7 +9365,7 @@ if (!crypto.randomUUID) {
   };
 }
 
-window.__gustImportScripts = function(...urls) {
+window.__Grapes OSImportScripts = function(...urls) {
   
   urls.forEach(u => {
     try {
@@ -9384,19 +9384,19 @@ window.__gustImportScripts = function(...urls) {
 document.addEventListener('mousedown', e => {
   const a = e.target?.closest?.('a, area');
   if (!a) return;
-  // Read the real URL from data-gust-href (set by defuse sweep) or fall back to href.
-  const href = a.getAttribute('data-gust-href') || a.getAttribute('href');
+  // Read the real URL from data-Grapes OS-href (set by defuse sweep) or fall back to href.
+  const href = a.getAttribute('data-Grapes OS-href') || a.getAttribute('href');
   if (!href || /^(javascript:|#|data:|blob:|mailto:|tel:)/i.test(href)) return;
   try {
     const abs = resolve(href);
-    a._gustHref = abs;
+    a._Grapes OSHref = abs;
     parent.postMessage({ t: 'hint', u: abs }, '*');
   } catch {}
 }, true);
 document.addEventListener('click', e => {
   const a = e.target?.closest?.('a, area');
   if (!a) return;
-  const href = a._gustHref || a.getAttribute('data-gust-href') || a.getAttribute('href');
+  const href = a._Grapes OSHref || a.getAttribute('data-Grapes OS-href') || a.getAttribute('href');
   if (!href) return;
   if (href.startsWith('#')) {
     const id = href.slice(1);
@@ -9407,14 +9407,14 @@ document.addEventListener('click', e => {
     e.preventDefault();
     return;
   }
-  // Skip non-navigatable schemes (javascript:void(0) with no data-gust-href).
+  // Skip non-navigatable schemes (javascript:void(0) with no data-Grapes OS-href).
   if (/^(javascript:|mailto:|tel:|data:|blob:)/i.test(href)) { return; }
   e.preventDefault();
   e.stopPropagation();
   e.stopImmediatePropagation();
   parent.postMessage({ t: 'n', u: resolve(href) }, '*');
 }, true);
-document.addEventListener('auxclick', e => { if (e.button !== 1) return; const a = e.target?.closest?.('a, area'); if (!a) return; const href = a._gustHref || a.getAttribute('data-gust-href') || a.getAttribute('href'); if (!href || /^(javascript:|#)/i.test(href)) return; e.preventDefault(); e.stopPropagation(); parent.postMessage({ t: 'n', u: resolve(href) }, '*'); }, true);
+document.addEventListener('auxclick', e => { if (e.button !== 1) return; const a = e.target?.closest?.('a, area'); if (!a) return; const href = a._Grapes OSHref || a.getAttribute('data-Grapes OS-href') || a.getAttribute('href'); if (!href || /^(javascript:|#)/i.test(href)) return; e.preventDefault(); e.stopPropagation(); parent.postMessage({ t: 'n', u: resolve(href) }, '*'); }, true);
 document.addEventListener('submit', e => { const form = e.target; if (!form || form.tagName !== 'FORM') return; e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation(); const action = resolve(form.action || BASE); const method = (form.method || 'GET').toUpperCase(); const fd = new FormData(form); if (method === 'GET') { parent.postMessage({ t: 'n', u: action.split('?')[0] + '?' + new URLSearchParams(fd).toString(), form: 1 }, '*'); } else { parent.postMessage({ t: 'n', u: action, m: 'POST', b: new URLSearchParams(fd).toString(), form: 1 }, '*'); } }, true);
 
 const _open = window.open;
@@ -9473,9 +9473,9 @@ if (formTargetDesc) { Object.defineProperty(HTMLFormElement.prototype, 'target',
 const anchorHrefDesc = Object.getOwnPropertyDescriptor(HTMLAnchorElement.prototype, 'href');
 if (anchorHrefDesc && anchorHrefDesc.set) {
   Object.defineProperty(HTMLAnchorElement.prototype, 'href', {
-    // Return data-gust-href (the real URL) if present, so site JS that reads
+    // Return data-Grapes OS-href (the real URL) if present, so site JS that reads
     // el.href after setting it still gets the correct absolute URL.
-    get() { return this.getAttribute('data-gust-href') || anchorHrefDesc.get.call(this); },
+    get() { return this.getAttribute('data-Grapes OS-href') || anchorHrefDesc.get.call(this); },
     set(v) {
       // Let the browser normalise the value first (resolves relative paths)
       anchorHrefDesc.set.call(this, v);
@@ -9483,7 +9483,7 @@ if (anchorHrefDesc && anchorHrefDesc.set) {
       if (normalised && !/^(javascript:|#|data:|blob:|mailto:|tel:)/i.test(normalised)) {
         try {
           const abs = resolve(normalised);
-          this.setAttribute('data-gust-href', abs);
+          this.setAttribute('data-Grapes OS-href', abs);
           anchorHrefDesc.set.call(this, 'javascript:void(0)');
         } catch {}
       }
@@ -9499,11 +9499,11 @@ const _rewriteAnchors = () => {
     if (href && !/^(javascript:|#|data:|blob:|mailto:|tel:)/i.test(href)) {
       try {
         const abs = resolve(href);
-        a.setAttribute('data-gust-href', abs);
+        a.setAttribute('data-Grapes OS-href', abs);
         a.setAttribute('href', 'javascript:void(0)');
       } catch {}
     }
-    // Also pick up anchors that only have data-gust-href but lost href somehow
+    // Also pick up anchors that only have data-Grapes OS-href but lost href somehow
     const tgt = (a.getAttribute('target') || '').toLowerCase();
     if (tgt && tgt !== '_self') a.setAttribute('target', '_self');
   });
@@ -9542,7 +9542,7 @@ history.replaceState = function(s, t, u) { if (u) { try { Object.assign(fakeLoc,
 const OrigWorker = window.Worker;
 if (OrigWorker) { window.Worker = function(url, opts) { const absUrl = resolve(url); const w = { onmessage: null, onerror: null, postMessage: () => {}, terminate: () => {}, addEventListener: () => {}, removeEventListener: () => {} }; const p = /^(data:|blob:)/i.test(absUrl) ? _fetch.call(window, absUrl).then(r => r.arrayBuffer()).then(buf => { const arr = new Uint8Array(buf); let bin = ""; for(let i=0; i<arr.length; i++) bin+=String.fromCharCode(arr[i]); return { d: btoa(bin) }; }) : req(absUrl); p.then(r => { const bin = atob(r.d || ''); const arr = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i); const blob = new Blob([arr], { type: 'application/javascript' }); const real = new OrigWorker(URL.createObjectURL(blob), opts); w.postMessage = m => real.postMessage(m); w.terminate = () => real.terminate(); w.addEventListener = (t, fn) => real.addEventListener(t, fn); w.removeEventListener = (t, fn) => real.removeEventListener(t, fn); real.onmessage = e => w.onmessage?.(e); real.onerror = e => w.onerror?.(e); }).catch(e => w.onerror?.(new ErrorEvent('error', { message: e.message }))); return w; }; }
 
-// SharedWorker shim — proxy the script through Gust then run as a plain Worker
+// SharedWorker shim — proxy the script through Grapes OS then run as a plain Worker
 // (SharedWorkers can't share state across tabs in a single-iframe proxy, but at least
 // the script loads and executes instead of failing with a cross-origin error)
 const OrigSharedWorker = window.SharedWorker;
@@ -9593,14 +9593,14 @@ if (OrigSharedWorker) {
 // WebRTC leak prevention — stub out RTCPeerConnection and getUserMedia
 // so sites can't establish direct connections that bypass the WISP tunnel
 if (WEBRTC_BLOCK) {
-  const _noRTC = function() { throw new DOMException('WebRTC is blocked by Gust', 'NotSupportedError'); };
+  const _noRTC = function() { throw new DOMException('WebRTC is blocked by Grapes OS', 'NotSupportedError'); };
   try { window.RTCPeerConnection = _noRTC; } catch(e) {}
   try { window.webkitRTCPeerConnection = _noRTC; } catch(e) {}
   try { window.mozRTCPeerConnection = _noRTC; } catch(e) {}
   try { window.RTCDataChannel = _noRTC; } catch(e) {}
   try {
     if (navigator.mediaDevices) {
-      navigator.mediaDevices.getUserMedia = () => Promise.reject(new DOMException('WebRTC is blocked by Gust', 'NotSupportedError'));
+      navigator.mediaDevices.getUserMedia = () => Promise.reject(new DOMException('WebRTC is blocked by Grapes OS', 'NotSupportedError'));
     }
     navigator.getUserMedia = _noRTC;
     navigator.webkitGetUserMedia = _noRTC;
@@ -9767,7 +9767,7 @@ parent.postMessage({ t: 'ready' }, '*');
                     // normalised before the async go() fetch completes.
                     if (d.u) {
                         const cleaned = normUrl(d.u);
-                        if (cleaned && !cleaned.startsWith('gust://')) {
+                        if (cleaned && !cleaned.startsWith('Grapes OS://')) {
                             urlInput.value = cleaned;
                             pageUrl = cleaned;
                             const navTab = getActiveTab();
@@ -9836,7 +9836,7 @@ parent.postMessage({ t: 'ready' }, '*');
                     log("[Page] " + _safeConsole, cls);
                 }
                 // ── Viewer download: triggered via postMessage from viewer pages ──
-                if (d.t === "gust:download") {
+                if (d.t === "Grapes OS:download") {
                     try {
                         const a = document.createElement('a');
                         a.href = d.data;      // data: URI
@@ -9854,15 +9854,15 @@ parent.postMessage({ t: 'ready' }, '*');
 
             // ── Media pref helpers ─────────────────────────────────────────
             const _MEDIA_DEFAULTS = {
-                'gust:media:pdf:v1':      true,
-                'gust:media:img:v1':      true,
-                'gust:media:video:v1':    true,
-                'gust:media:audio:v1':    true,
-                'gust:media:text:v1':     true,
-                'gust:media:download:v1': false,
-                'gust:media:range:v1':    true,
-                'gust:media:headers:v1':  true,
-                'gust:webrtc:block:v1':   false,
+                'Grapes OS:media:pdf:v1':      true,
+                'Grapes OS:media:img:v1':      true,
+                'Grapes OS:media:video:v1':    true,
+                'Grapes OS:media:audio:v1':    true,
+                'Grapes OS:media:text:v1':     true,
+                'Grapes OS:media:download:v1': false,
+                'Grapes OS:media:range:v1':    true,
+                'Grapes OS:media:headers:v1':  true,
+                'Grapes OS:webrtc:block:v1':   false,
             };
             function mediaPref(key) {
                 const saved = ls.getItem(key);
@@ -10035,7 +10035,7 @@ _VIEWER_BASE_CSS +
 '    const bytes=b64ToBytes(B64);' +
 '    var bin="";var chunk=32768;' +
 '    for(var i=0;i<bytes.length;i+=chunk)bin+=String.fromCharCode.apply(null,bytes.subarray(i,i+chunk));' +
-'    parent.postMessage({t:"gust:download",data:"data:application/pdf;base64,"+btoa(bin),name:FILENAME},"*");' +
+'    parent.postMessage({t:"Grapes OS:download",data:"data:application/pdf;base64,"+btoa(bin),name:FILENAME},"*");' +
 '  }catch(e){console.error("PDF download failed:",e);}' +
 '}' +
 'window.goFirst=goFirst;window.goPrev=goPrev;window.goNext=goNext;window.goLast=goLast;' +
@@ -10080,7 +10080,7 @@ _VIEWER_BASE_CSS +
 
             // Download via parent shell so it reaches the real browser
             const _VIEWER_DL_JS =
-'function dl(data,name){parent.postMessage({t:"gust:download",data:data,name:name},"*");}';
+'function dl(data,name){parent.postMessage({t:"Grapes OS:download",data:data,name:name},"*");}';
 
             function makeImageViewer(buf, filename, mime) {
                 const arr = new Uint8Array(buf);
@@ -10220,7 +10220,7 @@ _VIEWER_DL_JS +
                 const esc_fn = filename.replace(/</g, '&lt;');
 
                 function buildScript() {
-                    const DL = 'function dl(data,name){parent.postMessage({t:"gust:download",data:data,name:name},"*");}';
+                    const DL = 'function dl(data,name){parent.postMessage({t:"Grapes OS:download",data:data,name:name},"*");}';
                     const rawJ   = JSON.stringify(text)   .replace(/</g,'\\u003c').replace(/>/g,'\\u003e');
                     const fnameJ = JSON.stringify(filename).replace(/</g,'\\u003c').replace(/>/g,'\\u003e');
                     const mimeJ  = JSON.stringify(mime || 'text/plain');
@@ -10310,7 +10310,7 @@ _VIEWER_DL_JS +
 '  <h1>Cannot Open File</h1>' +
 '  <div class="fname">' + esc_fn + '</div>' +
 '  <div class="meta">' + esc_mime + ' &nbsp;&middot;&nbsp; ' + size + '</div>' +
-'  <p class="hint">Gust doesn\'t have a built-in viewer for this file type.<br>Enable <strong style="color:#b8c4d0">Auto-download</strong> in Files &amp; Media settings to download it instead.</p>' +
+'  <p class="hint">Grapes OS doesn\'t have a built-in viewer for this file type.<br>Enable <strong style="color:#b8c4d0">Auto-download</strong> in Files &amp; Media settings to download it instead.</p>' +
 '  <div class="btn-row">' +
 '    <button class="btn btn-primary" onclick="go()"><i class="fas fa-arrow-rotate-left"></i> Go Back</button>' +
 '    <button class="btn btn-sec" onclick="openSettings()"><i class="fas fa-sliders"></i> File Settings</button>' +
@@ -10320,7 +10320,7 @@ _VIEWER_DL_JS +
 '<script>' +
 'var ORIG=' + jUrl + ';' +
 'function go(){parent.postMessage({t:"n",u:ORIG},"*");}' +
-'function openSettings(){parent.postMessage({t:"n",u:"gust://settings/filesandmedia"},"*");}' +
+'function openSettings(){parent.postMessage({t:"n",u:"Grapes OS://settings/filesandmedia"},"*");}' +
 'function copyUrl(){' +
 '  if(navigator.clipboard){navigator.clipboard.writeText(ORIG);}' +
 '  else{var ta=document.createElement("textarea");ta.value=ORIG;document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);}' +
@@ -10365,7 +10365,7 @@ _VIEWER_DL_JS +
 '  <div class="meta">' + esc_mime + ' &nbsp;&middot;&nbsp; ' + esc_size + '</div>' +
 '  <div class="btn-row">' +
 '    <button class="dl-btn" onclick="dl(DATA,FILENAME)"><i class="fas fa-download"></i> Download File</button>' +
-'    <button class="sec-btn" onclick="parent.postMessage({t:\'n\',u:\'gust://settings/filesandmedia\'},\'*\')"><i class="fas fa-gear"></i> File Settings</button>' +
+'    <button class="sec-btn" onclick="parent.postMessage({t:\'n\',u:\'Grapes OS://settings/filesandmedia\'},\'*\')"><i class="fas fa-gear"></i> File Settings</button>' +
 '  </div>' +
 '</div>' +
 '<script>' +
@@ -10421,10 +10421,10 @@ _VIEWER_DL_JS +
                     log("Invalid URL", "err");
                     return;
                 }
-                // Abort the tab's in-flight load before showing any gust:// page,
+                // Abort the tab's in-flight load before showing any Grapes OS:// page,
                 // same as we do when navigating to a real URL. Without this the old
                 // page keeps loading in the background after the early return.
-                if ((url === HOME_INTERNAL || url === SETTINGS_INTERNAL || url.startsWith("gust://settings/")) && activeTabId === initiatorTabId) {
+                if ((url === HOME_INTERNAL || url === SETTINGS_INTERNAL || url.startsWith("Grapes OS://settings/")) && activeTabId === initiatorTabId) {
                     const prevCtrl = tabAbortControllers.get(initiatorTabId);
                     if (prevCtrl) prevCtrl.abort();
                     tabAbortControllers.delete(initiatorTabId);
@@ -10438,9 +10438,9 @@ _VIEWER_DL_JS +
                     if (activeTabId === initiatorTabId) showNewTab(push);
                     return;
                 }
-                if (url === SETTINGS_INTERNAL || url.startsWith("gust://settings/")) {
-                    const section = url.replace("gust://settings/", "") || "connection";
-                    const cleanSection = section === "gust://settings" ? "connection" : section.split("/")[0];
+                if (url === SETTINGS_INTERNAL || url.startsWith("Grapes OS://settings/")) {
+                    const section = url.replace("Grapes OS://settings/", "") || "connection";
+                    const cleanSection = section === "Grapes OS://settings" ? "connection" : section.split("/")[0];
                     if (url !== SETTINGS_INTERNAL && !VALID_SETTINGS_SECTIONS.has(cleanSection)) {
                         // Unknown settings section — show error page
                         if (activeTabId === initiatorTabId) {
@@ -10449,7 +10449,7 @@ _VIEWER_DL_JS +
                             renderErrorPage(
                                 url,
                                 "Unknown Settings Page",
-                                "ERR_INVALID_GUST_SETTINGS",
+                                "ERR_INVALID_Grapes OS_SETTINGS",
                                 `The settings page <code>${url}</code> does not exist.`,
                                 ["Check for typos in the address", "Valid settings pages: " + [...VALID_SETTINGS_SECTIONS].join(", ")]
                             );
@@ -10477,17 +10477,17 @@ _VIEWER_DL_JS +
                     return;
                 }
 
-                // Unknown gust:// URL — show error page (don't proxy it)
-                if (url.startsWith("gust://")) {
+                // Unknown Grapes OS:// URL — show error page (don't proxy it)
+                if (url.startsWith("Grapes OS://")) {
                     if (activeTabId === initiatorTabId) {
                         hideNewTab();
                         hideSettingsPage();
                         renderErrorPage(
                             url,
-                            "Unknown Gust Page",
-                            "ERR_INVALID_GUST_URL",
-                            `<code>${url}</code> is not a valid Gust internal page.`,
-                            ["Check for typos in the address", "Valid pages: gust://newtab, gust://settings"]
+                            "Unknown Grapes OS Page",
+                            "ERR_INVALID_Grapes OS_URL",
+                            `<code>${url}</code> is not a valid Grapes OS internal page.`,
+                            ["Check for typos in the address", "Valid pages: Grapes OS://newtab, Grapes OS://settings"]
                         );
                         setTabTitle("Not Found");
                         isErrorPage = true;
@@ -10540,9 +10540,9 @@ _VIEWER_DL_JS +
                         renderErrorPage(
                             url,
                             "Invalid Internal URL",
-                            "ERR_INVALID_GUST_URL",
-                            `The internal address <code>${url}</code> is not a valid Gust page.`,
-                            ["Check for typos in the address", "Use the Home button to return to the search page", "Common pages: gust://newtab, gust://settings"]
+                            "ERR_INVALID_Grapes OS_URL",
+                            `The internal address <code>${url}</code> is not a valid Grapes OS page.`,
+                            ["Check for typos in the address", "Use the Home button to return to the search page", "Common pages: Grapes OS://newtab, Grapes OS://settings"]
                         );
 
                         setTabTitle("Invalid URL");
@@ -10653,34 +10653,34 @@ _VIEWER_DL_JS +
                         const _ftype = classifyResponse(r.mime, url, r.buf);
                         const _filename = decodeURIComponent(url.split('?')[0].split('/').pop() || 'file');
 
-                        if (_ftype === 'pdf' && mediaPref('gust:media:pdf:v1')) {
+                        if (_ftype === 'pdf' && mediaPref('Grapes OS:media:pdf:v1')) {
                             loadViewerPage(makePdfViewer(r.buf, _filename, url), _filename, url, initiatorTabId);
                             return;
                         }
 
-                        if (_ftype === 'image' && mediaPref('gust:media:img:v1')) {
+                        if (_ftype === 'image' && mediaPref('Grapes OS:media:img:v1')) {
                             loadViewerPage(makeImageViewer(r.buf, _filename, r.mime || 'image/png'), _filename, url, initiatorTabId);
                             return;
                         }
 
-                        if (_ftype === 'video' && mediaPref('gust:media:video:v1')) {
+                        if (_ftype === 'video' && mediaPref('Grapes OS:media:video:v1')) {
                             loadViewerPage(makeVideoViewer(r.buf, _filename, r.mime || 'video/mp4'), _filename, url, initiatorTabId);
                             return;
                         }
 
-                        if (_ftype === 'audio' && mediaPref('gust:media:audio:v1')) {
+                        if (_ftype === 'audio' && mediaPref('Grapes OS:media:audio:v1')) {
                             loadViewerPage(makeAudioViewer(r.buf, _filename, r.mime || 'audio/mpeg'), _filename, url, initiatorTabId);
                             return;
                         }
 
-                        if (_ftype === 'text' && mediaPref('gust:media:text:v1')) {
+                        if (_ftype === 'text' && mediaPref('Grapes OS:media:text:v1')) {
                             const _text = new TextDecoder('utf-8', { fatal: false }).decode(r.buf);
                             loadViewerPage(makeTextViewer(_text, _filename, r.mime || 'text/plain'), _filename, url, initiatorTabId);
                             return;
                         }
 
                         if (_ftype === 'binary') {
-                            if (mediaPref('gust:media:download:v1')) {
+                            if (mediaPref('Grapes OS:media:download:v1')) {
                                 loadViewerPage(makeBinaryDownloadPage(r.buf, _filename, r.mime || 'application/octet-stream'), _filename, url, initiatorTabId);
                             } else {
                                 loadViewerPage(makeUnknownFilePage(_filename, r.mime || 'application/octet-stream', r.buf.byteLength, url), _filename, url, initiatorTabId);
@@ -10706,7 +10706,7 @@ _VIEWER_DL_JS +
                     if (docTitle) setTabTitle(docTitle);
 
                     // Remove all CSP and framing meta tags (case-insensitive).
-                    // Also intercept <meta http-equiv="refresh"> to route through GUST
+                    // Also intercept <meta http-equiv="refresh"> to route through Grapes OS
                     // instead of letting the browser navigate the iframe natively.
                     doc.querySelectorAll('meta[http-equiv]').forEach(m => {
                         const val = (m.getAttribute('http-equiv') || '').toLowerCase().trim();
@@ -10804,7 +10804,7 @@ _VIEWER_DL_JS +
                         if (action && !/^(javascript:|#|data:|blob:)/i.test(action)) {
                             try {
                                 const absAction = new URL(action, url).href;
-                                form.setAttribute('data-gust-action', absAction);
+                                form.setAttribute('data-Grapes OS-action', absAction);
                                 form.setAttribute('action', absAction);
                             } catch {}
                         }
@@ -10816,7 +10816,7 @@ _VIEWER_DL_JS +
                     // the blob is written to the iframe, so no page JS can interfere.
                     doc.querySelectorAll('a, area').forEach(a => {
                         // Strip ALL inline event handlers that could intercept the click
-                        // before GUST's listener fires (onclick, onmousedown, etc.)
+                        // before Grapes OS's listener fires (onclick, onmousedown, etc.)
                         const evAttrs = [...a.attributes].filter(attr =>
                             attr.name.startsWith('on') ||
                             attr.name === 'ping'           // <a ping> sends beacons on click
@@ -10829,9 +10829,9 @@ _VIEWER_DL_JS +
 
                         // Rewrite href to absolute URL so resolve() inside the proxy
                         // Defuse href at parse-time: store real absolute URL in
-                        // data-gust-href and set href=javascript:void(0) so the
+                        // data-Grapes OS-href and set href=javascript:void(0) so the
                         // browser can never navigate natively from a click.
-                        // The proxy script click handler reads data-gust-href.
+                        // The proxy script click handler reads data-Grapes OS-href.
                         const href = a.getAttribute('href');
                         if (!href) return;
                         if (/^javascript:/i.test(href)) {
@@ -10841,7 +10841,7 @@ _VIEWER_DL_JS +
                         if (/^(#|mailto:|tel:|data:|blob:)/i.test(href)) return;
                         try {
                             const abs = new URL(href, url).href;
-                            a.setAttribute('data-gust-href', abs);
+                            a.setAttribute('data-Grapes OS-href', abs);
                             a.setAttribute('href', 'javascript:void(0)');
                         } catch {}
                     });
@@ -10849,8 +10849,8 @@ _VIEWER_DL_JS +
 
                     // Insert proxy script as very first child so it runs before any page scripts
                     const proxyScript = doc.createElement("script");
-                    proxyScript.setAttribute('data-gust-injected', '1');
-                    proxyScript.textContent = makeProxyScript(url, blockEnabled && !((() => { try { const al = JSON.parse(ls.getItem('gust:adblock:allowlist:v1') || '[]'); const h = new URL(url).hostname; return al.includes(h); } catch(e) { return false; } })()), mediaPref('gust:webrtc:block:v1'), (() => { try { return ls.getItem('gust:ua:page:v1') || null; } catch { return null; } })(), (() => { try { return ls.getItem('gust:spellcheck:v1') === 'true'; } catch { return false; } })());
+                    proxyScript.setAttribute('data-Grapes OS-injected', '1');
+                    proxyScript.textContent = makeProxyScript(url, blockEnabled && !((() => { try { const al = JSON.parse(ls.getItem('Grapes OS:adblock:allowlist:v1') || '[]'); const h = new URL(url).hostname; return al.includes(h); } catch(e) { return false; } })()), mediaPref('Grapes OS:webrtc:block:v1'), (() => { try { return ls.getItem('Grapes OS:ua:page:v1') || null; } catch { return null; } })(), (() => { try { return ls.getItem('Grapes OS:spellcheck:v1') === 'true'; } catch { return false; } })());
                     doc.head.insertBefore(proxyScript, doc.head.firstChild);
 
                     // Ensure base tag stays right after the proxy script
@@ -10858,16 +10858,16 @@ _VIEWER_DL_JS +
 
                     // ── Standalone click router ───────────────────────────────────────
                     // A minimal self-contained script that handles link clicks using
-                    // the data-gust-href attributes set at parse-time above.
+                    // the data-Grapes OS-href attributes set at parse-time above.
                     // Runs independently of the main proxy script so link navigation
                     // works even if the proxy script has an error.
                     const clickRouterScript = doc.createElement("script");
-                    clickRouterScript.setAttribute('data-gust-injected', '1');
+                    clickRouterScript.setAttribute('data-Grapes OS-injected', '1');
                     clickRouterScript.textContent = `(function(){
   document.addEventListener('click', function(e) {
     var a = e.target && e.target.closest ? e.target.closest('a,area') : null;
     if (!a) return;
-    var dest = a.getAttribute('data-gust-href');
+    var dest = a.getAttribute('data-Grapes OS-href');
     if (!dest) return;
     e.preventDefault();
     e.stopPropagation();
@@ -10879,7 +10879,7 @@ _VIEWER_DL_JS +
   document.addEventListener('dragstart', function(e) {
     var a = e.target && e.target.closest ? e.target.closest('a,area') : null;
     if (!a) return;
-    var dest = a.getAttribute('data-gust-href');
+    var dest = a.getAttribute('data-Grapes OS-href');
     if (!dest) return;
     try {
       e.dataTransfer.setData('text/uri-list', dest);
@@ -10889,7 +10889,7 @@ _VIEWER_DL_JS +
   document.addEventListener('submit', function(e) {
     var form = e.target;
     if (!form || form.tagName !== 'FORM') return;
-    var dest = form.getAttribute('data-gust-action') || form.action;
+    var dest = form.getAttribute('data-Grapes OS-action') || form.action;
     if (!dest || /^(javascript:|blob:|data:)/i.test(dest)) return;
     e.preventDefault();
     e.stopPropagation();
@@ -11057,7 +11057,7 @@ _VIEWER_DL_JS +
                     // + ES module chunks). We keep up to 150 total to avoid cutting off critical
                     // framework bootstrap scripts.  Module scripts (type="module") are included in
                     // the same pass so their relative load order is preserved.
-                    const _scriptLimit = Math.max(1, parseInt((() => { try { return ls.getItem('gust:render:scriptlimit'); } catch(e) { return null; } })() || '250', 10));
+                    const _scriptLimit = Math.max(1, parseInt((() => { try { return ls.getItem('Grapes OS:render:scriptlimit'); } catch(e) { return null; } })() || '250', 10));
                     const allScripts = [...doc.querySelectorAll("script[src]")].slice(0, _scriptLimit);
                     allScripts.forEach(scr => {
                         const src = scr.getAttribute("src");
@@ -11121,7 +11121,7 @@ _VIEWER_DL_JS +
                         });
                     }
 
-                    const _imgLimit = Math.max(0, parseInt((() => { try { return ls.getItem('gust:render:imglimit'); } catch(e) { return null; } })() || '300', 10));
+                    const _imgLimit = Math.max(0, parseInt((() => { try { return ls.getItem('Grapes OS:render:imglimit'); } catch(e) { return null; } })() || '300', 10));
                     const images = _imgLimit > 0 ? [...doc.querySelectorAll("img[src]")].slice(0, _imgLimit) : [];
                     const loadedImageUrls = new Set(); 
                     const imagePromises = images.map(async img => {
@@ -11157,7 +11157,7 @@ _VIEWER_DL_JS +
 
                     const highlightStyle = doc.createElement('style');
                     highlightStyle.textContent = `
-                        .gust-highlight {
+                        .Grapes OS-highlight {
                             outline: 2px solid rgba(100, 210, 255, 0.9) !important;
                             outline-offset: 0px !important;
                             box-shadow: inset 0 0 0 9999px rgba(100, 210, 255, 0.12) !important;
@@ -11221,13 +11221,13 @@ _VIEWER_DL_JS +
                     if (_isRetry) throw e;
 
                     // ── Fallback retry logic ──────────────────────────────────
-                    const _fbEnabled = (() => { try { return ls.getItem('gust:fallback:enabled') !== '0'; } catch { return true; } })();
-                    const _fbWisp    = (() => { try { return ls.getItem('gust:fallback:wisp') || ''; } catch { return ''; } })();
-                    const _fbRetries = (() => { try { return Math.max(1, parseInt(ls.getItem('gust:fallback:retries') || '3', 10)); } catch { return 3; } })();
-                    const _fbDelay   = (() => { try { return Math.max(0, parseInt(ls.getItem('gust:fallback:delay')   || '3', 10)); } catch { return 3; } })();
-                    const _fb5xx     = (() => { try { return ls.getItem('gust:fallback:5xx')     !== '0'; } catch { return true; } })();
-                    const _fbTimeout = (() => { try { return ls.getItem('gust:fallback:timeout') !== '0'; } catch { return true; } })();
-                    const _fbDns     = (() => { try { return ls.getItem('gust:fallback:dns')     === '1'; } catch { return false; } })();
+                    const _fbEnabled = (() => { try { return ls.getItem('Grapes OS:fallback:enabled') !== '0'; } catch { return true; } })();
+                    const _fbWisp    = (() => { try { return ls.getItem('Grapes OS:fallback:wisp') || ''; } catch { return ''; } })();
+                    const _fbRetries = (() => { try { return Math.max(1, parseInt(ls.getItem('Grapes OS:fallback:retries') || '3', 10)); } catch { return 3; } })();
+                    const _fbDelay   = (() => { try { return Math.max(0, parseInt(ls.getItem('Grapes OS:fallback:delay')   || '3', 10)); } catch { return 3; } })();
+                    const _fb5xx     = (() => { try { return ls.getItem('Grapes OS:fallback:5xx')     !== '0'; } catch { return true; } })();
+                    const _fbTimeout = (() => { try { return ls.getItem('Grapes OS:fallback:timeout') !== '0'; } catch { return true; } })();
+                    const _fbDns     = (() => { try { return ls.getItem('Grapes OS:fallback:dns')     === '1'; } catch { return false; } })();
 
                     const _eMsg    = (e.message || '').toLowerCase();
                     const _isDns     = _eMsg.includes('dns') || _eMsg.includes('getaddrinfo') || _eMsg.includes('name resolution');
@@ -11237,7 +11237,7 @@ _VIEWER_DL_JS +
                     const _triggerMatches = (_isDns && _fbDns) || (_isTimeout && _fbTimeout) || (_is5xx && _fb5xx)
                         || (!_isDns && !_isTimeout && !_is5xx); // generic errors always eligible
 
-                    const _mainRetries = (() => { try { return parseInt(ls.getItem('gust:main:retries')) || 3; } catch { return 3; } })();
+                    const _mainRetries = (() => { try { return parseInt(ls.getItem('Grapes OS:main:retries')) || 3; } catch { return 3; } })();
                     const _primaryHost = WISP.replace(/^wss?:\/\//, '').split('/')[0];
 
                     if (!_isRetry && _triggerMatches && !tabAbortControllers.get(initiatorTabId)?.signal?.aborted) {
@@ -11420,7 +11420,7 @@ _VIEWER_DL_JS +
                     } else if (errorMsg.includes("aborted") || errorMsg.includes("operation")) {
                         errorType = "Connection Interrupted";
                         errorCode = "ERR_CONNECTION_ABORTED";
-                        errorDescription = "The connection to the proxy server was interrupted. GUST will attempt to reconnect automatically on the next request.";
+                        errorDescription = "The connection to the proxy server was interrupted. Grapes OS will attempt to reconnect automatically on the next request.";
                         errorSuggestions = [
                             "Click the reload button to try again",
                             "The proxy server may have briefly disconnected",
@@ -11683,10 +11683,10 @@ _VIEWER_DL_JS +
 
             // ── Pause for this site ──────────────────────────────────────────
             function getAllowlist() {
-                try { return JSON.parse(ls.getItem('gust:adblock:allowlist:v1') || '[]'); } catch(e) { return []; }
+                try { return JSON.parse(ls.getItem('Grapes OS:adblock:allowlist:v1') || '[]'); } catch(e) { return []; }
             }
             function saveAllowlist(list) {
-                try { ls.setItem('gust:adblock:allowlist:v1', JSON.stringify(list)); } catch(e) {}
+                try { ls.setItem('Grapes OS:adblock:allowlist:v1', JSON.stringify(list)); } catch(e) {}
             }
             function getCurrentHost() {
                 try {
@@ -11837,12 +11837,12 @@ _VIEWER_DL_JS +
                     } catch { return 0; }
                 }
 
-                if (!url || url === HOME_INTERNAL || isSettingsPage(url) || url.startsWith("gust://")) {
+                if (!url || url === HOME_INTERNAL || isSettingsPage(url) || url.startsWith("Grapes OS://")) {
                     iconEl.className = "site-info-icon neutral";
                     iconI.className = "fas fa-wind";
-                    title.textContent = "Gust Browser";
+                    title.textContent = "Grapes OS Browser";
                     subtitle.textContent = "Internal page";
-                    hostEl.textContent = "gust://";
+                    hostEl.textContent = "Grapes OS://";
                     protoEl.innerHTML = `<span class="ok">Internal</span>`;
                     blockEl.innerHTML = `<span style="color:var(--tx3)">N/A</span>`;
                     cookieEl.innerHTML = `<span style="color:var(--tx3)">N/A</span>`;
@@ -11948,16 +11948,16 @@ _VIEWER_DL_JS +
             const historyPopup = $("historyPopup");
 
             let recentSites = [];
-            try { recentSites = JSON.parse(ls.getItem('gust:recent') || '[]'); } catch { }
+            try { recentSites = JSON.parse(ls.getItem('Grapes OS:recent') || '[]'); } catch { }
             recentSites = recentSites.map(e => typeof e === 'string' ? { url: e, time: Date.now() } : e);
 
             function addRecentSite(url) {
-                if (!url || url === HOME_INTERNAL || url.startsWith('gust://') || isSettingsPage(url)) return;
+                if (!url || url === HOME_INTERNAL || url.startsWith('Grapes OS://') || isSettingsPage(url)) return;
                 // Remove existing entry for same URL so it moves to top
                 recentSites = recentSites.filter(e => e.url !== url);
                 recentSites.unshift({ url, time: Date.now() });
                 recentSites = recentSites.slice(0, 20);
-                try { ls.setItem('gust:recent', JSON.stringify(recentSites)); } catch { }
+                try { ls.setItem('Grapes OS:recent', JSON.stringify(recentSites)); } catch { }
             }
 
             function formatHistoryTime(ts) {
@@ -12025,7 +12025,7 @@ _VIEWER_DL_JS +
             $("historyClose").onclick = hideHistoryPopup;
             $("historyClear").onclick = () => {
                 recentSites = [];
-                try { ls.removeItem('gust:recent'); } catch { }
+                try { ls.removeItem('Grapes OS:recent'); } catch { }
                 showHistoryPopup();
             };
 
@@ -12071,7 +12071,7 @@ _VIEWER_DL_JS +
             }
 
             let _totalFetches = 0, _totalBytes = 0, _cacheHits = 0;
-            const _origQueueFetch = window.__gustMetricHook;
+            const _origQueueFetch = window.__Grapes OSMetricHook;
 
             async function refreshMetrics() {
                 const uptime = Date.now() - metricsStartTime;
@@ -12201,7 +12201,7 @@ _VIEWER_DL_JS +
             document.querySelectorAll('.settings-nav-item').forEach(navBtn => {
                 navBtn.addEventListener('click', () => {
                     const section = navBtn.dataset.section;
-                    const settingsUrl = `gust://settings/${section}`;
+                    const settingsUrl = `Grapes OS://settings/${section}`;
                     urlInput.value = settingsUrl;
                     pageUrl = settingsUrl;
                     setTabTitle(`Settings - ${section.charAt(0).toUpperCase() + section.slice(1)}`);
@@ -12243,14 +12243,14 @@ _VIEWER_DL_JS +
                 bookmarksToggle.onclick = () => {
                     bookmarksWrap.classList.add('hidden');
                     if (showBookmarksBtn) showBookmarksBtn.style.display = 'grid';
-                    try { ls.setItem('gust:bookmarksbar:v1', 'false'); } catch (_) {}
+                    try { ls.setItem('Grapes OS:bookmarksbar:v1', 'false'); } catch (_) {}
                 };
             }
             if (showBookmarksBtn) {
                 showBookmarksBtn.onclick = () => {
                     bookmarksWrap.classList.remove('hidden');
                     showBookmarksBtn.style.display = 'none';
-                    try { ls.setItem('gust:bookmarksbar:v1', 'true'); } catch (_) {}
+                    try { ls.setItem('Grapes OS:bookmarksbar:v1', 'true'); } catch (_) {}
                 };
             }
 
@@ -12308,7 +12308,7 @@ _VIEWER_DL_JS +
                     btn.onclick = (e) => {
                         e.stopPropagation();
                         selectedEngine = btn.dataset.engine;
-                        try { ls.setItem('gust:engine:v1', selectedEngine); } catch { }
+                        try { ls.setItem('Grapes OS:engine:v1', selectedEngine); } catch { }
                         ntEngineLabel.textContent = btn.textContent;
 
                         ntEngineDropdown.querySelectorAll('button').forEach(b => b.classList.remove('active'));
@@ -12338,7 +12338,7 @@ _VIEWER_DL_JS +
                 if (e.key === "Enter") ntSearchBtn.click();
             };
             const ntGithubBtn = $("ntGithubBtn");
-            if (ntGithubBtn) ntGithubBtn.onclick = () => window.open("https://github.com/nautilus-os/GUST", "_blank", "noopener,noreferrer");
+            if (ntGithubBtn) ntGithubBtn.onclick = () => window.open("https://github.com/nautilus-os/Grapes OS", "_blank", "noopener,noreferrer");
 
             ntWallpaperBtn.onclick = () => {
                 $("wallpaperUrlInput").value = "";
@@ -12446,9 +12446,9 @@ _VIEWER_DL_JS +
                 log("Starting...");
 
                 try {
-                    if (!ls.getItem('gust:initialized:v1')) {
+                    if (!ls.getItem('Grapes OS:initialized:v1')) {
                         ls.clear();
-                        ls.setItem('gust:initialized:v1', '1');
+                        ls.setItem('Grapes OS:initialized:v1', '1');
                     }
                 } catch(e) {}
 
@@ -12458,7 +12458,7 @@ _VIEWER_DL_JS +
                     loadTabCacheEnabled();
 
                     try {
-                        const saved = ls.getItem('gust:fontsize:v1');
+                        const saved = ls.getItem('Grapes OS:fontsize:v1');
                         if (saved !== null) {
                             applyFontSize(parseInt(saved));
                         }
@@ -12491,7 +12491,7 @@ _VIEWER_DL_JS +
                     if (ntEngineLabel) {
                         if (selectedEngine === 'google' || selectedEngine === 'ddg') {
                             selectedEngine = 'brave';
-                            try { ls.setItem('gust:engine:v1', 'brave'); } catch { }
+                            try { ls.setItem('Grapes OS:engine:v1', 'brave'); } catch { }
                         }
                         const engineNames = { brave: 'Brave', bing: 'Bing' };
                         ntEngineLabel.textContent = engineNames[selectedEngine] || 'Brave';
@@ -12538,7 +12538,7 @@ _VIEWER_DL_JS +
                         log(`Ready! (${MAX_CONCURRENT} connections, 1h cache) <span style="color:var(--tx3);font-size:11px;font-family:var(--mono)">via ${WISP.replace(/^wss?:\/\//, '').split('/')[0]}</span>`, "ok");
                     } catch (e) {
                         const reason = e.message || 'Unknown error';
-                        console.error('[GUST] libcurl failed to initialize:', reason, e);
+                        console.error('[Grapes OS] libcurl failed to initialize:', reason, e);
                         log("libcurl failed to initialize: " + reason, "err");
                         log("Waiting for user to choose how to proceed...", "warn");
                         await showOverlayError(reason);
@@ -12558,8 +12558,8 @@ _VIEWER_DL_JS +
                         } else if (activeTab && activeTab.url === HOME_INTERNAL) {
                             showNewTab(false);
                         } else if (activeTab && isSettingsPage(activeTab.url)) {
-                            const section = activeTab.url.replace("gust://settings/", "") || "connection";
-                            showSettingsPage(false, section === "gust://settings" ? "connection" : section);
+                            const section = activeTab.url.replace("Grapes OS://settings/", "") || "connection";
+                            showSettingsPage(false, section === "Grapes OS://settings" ? "connection" : section);
                         }
                     } else {
                         go(urlInput.value);
@@ -12587,8 +12587,8 @@ _VIEWER_DL_JS +
                 const settingsEl = $("settingsPage");
                 if (!settingsEl) return;
 
-                if (!section && pageUrl && pageUrl.startsWith("gust://settings/")) {
-                    section = pageUrl.replace("gust://settings/", "");
+                if (!section && pageUrl && pageUrl.startsWith("Grapes OS://settings/")) {
+                    section = pageUrl.replace("Grapes OS://settings/", "");
                 }
                 if (!section) section = "connection";
 
@@ -12598,7 +12598,7 @@ _VIEWER_DL_JS +
                 overlay.classList.add("hidden");
                 if (progressWrap) progressWrap.classList.add("hidden");
 
-                const settingsUrl = `gust://settings/${section}`;
+                const settingsUrl = `Grapes OS://settings/${section}`;
                 urlInput.value = settingsUrl;
                 pageUrl = settingsUrl;
                 currentDoc = null; 
@@ -12678,7 +12678,7 @@ _VIEWER_DL_JS +
                     `;
                     btn.onclick = () => {
                         selectedEngine = eng.key;
-                        try { ls.setItem('gust:engine:v1', selectedEngine); } catch { }
+                        try { ls.setItem('Grapes OS:engine:v1', selectedEngine); } catch { }
                         if (ntEngineLabel) ntEngineLabel.textContent = eng.name;
                         renderEngineButtons();
                     };
@@ -12713,7 +12713,7 @@ _VIEWER_DL_JS +
                             return;
                         }
                         try {
-                            ls.setItem('gust:wisp:v1', val);
+                            ls.setItem('Grapes OS:wisp:v1', val);
                             showStatusMsg(wispStatus, "Saved — applying...", "ok");
                             await applyWispUrl(val);
                             showStatusMsg(wispStatus, "Saved & connected!", "ok");
@@ -12727,7 +12727,7 @@ _VIEWER_DL_JS +
                         const defaultWisp = "wss://wisp.mercurywork.shop/";
                         wispInput.value = defaultWisp;
                         try {
-                            ls.setItem('gust:wisp:v1', defaultWisp);
+                            ls.setItem('Grapes OS:wisp:v1', defaultWisp);
                             showStatusMsg(wispStatus, "Reset — applying...", "ok");
                             await applyWispUrl(defaultWisp);
                             showStatusMsg(wispStatus, "Reset & connected!", "ok");
@@ -12770,8 +12770,8 @@ _VIEWER_DL_JS +
                         MAX_CONCURRENT = _idleVal;
                         MAX_CONCURRENT_ACTIVE = _activeVal;
                         try {
-                            ls.setItem('gust:idlethreads:v1', _idleVal);
-                            ls.setItem('gust:activethreads:v1', _activeVal);
+                            ls.setItem('Grapes OS:idlethreads:v1', _idleVal);
+                            ls.setItem('Grapes OS:activethreads:v1', _activeVal);
                             showStatusMsg(threadsStatus, `Saved - idle: ${_idleVal}, active: ${_activeVal}`, 'ok');
                         } catch (e) {
                             showStatusMsg(threadsStatus, 'Failed to save', 'err');
@@ -12783,7 +12783,7 @@ _VIEWER_DL_JS +
                         _idleVal = 3; _activeVal = 6;
                         MAX_CONCURRENT = 3; MAX_CONCURRENT_ACTIVE = 6;
                         updateThreadDisplays();
-                        try { ls.removeItem('gust:idlethreads:v1'); ls.removeItem('gust:activethreads:v1'); } catch { }
+                        try { ls.removeItem('Grapes OS:idlethreads:v1'); ls.removeItem('Grapes OS:activethreads:v1'); } catch { }
                         showStatusMsg(threadsStatus, 'Reset to defaults (idle: 3, active: 6)', 'ok');
                     };
                 }
@@ -12850,7 +12850,7 @@ _VIEWER_DL_JS +
                 const fontReset = $("settingsFontReset");
                 if (fontSlider) {
                     try {
-                        const saved = ls.getItem('gust:fontsize:v1');
+                        const saved = ls.getItem('Grapes OS:fontsize:v1');
                         if (saved !== null) {
                             const size = parseInt(saved);
                             fontSlider.value = size;
@@ -12862,7 +12862,7 @@ _VIEWER_DL_JS +
                         const size = parseInt(fontSlider.value);
                         applyFontSize(size);
                         try {
-                            ls.setItem('gust:fontsize:v1', size.toString());
+                            ls.setItem('Grapes OS:fontsize:v1', size.toString());
                         } catch (e) { }
                     };
                 }
@@ -12871,7 +12871,7 @@ _VIEWER_DL_JS +
                         if (fontSlider) fontSlider.value = 5;
                         applyFontSize(5);
                         try {
-                            ls.setItem('gust:fontsize:v1', '5');
+                            ls.setItem('Grapes OS:fontsize:v1', '5');
                         } catch (e) { }
                     };
                 }
@@ -12895,7 +12895,7 @@ _VIEWER_DL_JS +
 
                 const panelsLeftSwitch = $("settingsPanelsLeftSwitch");
                 if (panelsLeftSwitch) {
-                    const plKey = 'gust:panelsleft';
+                    const plKey = 'Grapes OS:panelsleft';
                     let plOn = false;
                     try { plOn = ls.getItem(plKey) === '1'; } catch (e) { }
                     panelsLeftSwitch.classList.toggle('on', plOn);
@@ -12908,7 +12908,7 @@ _VIEWER_DL_JS +
                 }
                 const bookmarksBarSwitch = $("settingsBookmarksBarSwitch");
                 if (bookmarksBarSwitch) {
-                    const bmBarKey = 'gust:bookmarksbar:v1';
+                    const bmBarKey = 'Grapes OS:bookmarksbar:v1';
                     const bmBarOn = ls.getItem(bmBarKey) !== 'false';
                     bookmarksBarSwitch.classList.toggle("on", bmBarOn);
                     if (bookmarksEl) bookmarksWrap.classList.toggle('hidden', !bmBarOn);
@@ -12951,7 +12951,7 @@ _VIEWER_DL_JS +
 
                 const clockSwitch = $("settingsClockSwitch");
                 if (clockSwitch) {
-                    const clockKey = 'gust:showclock:v1';
+                    const clockKey = 'Grapes OS:showclock:v1';
                     const clockOn = ls.getItem(clockKey) !== 'false';
                     clockSwitch.classList.toggle("on", clockOn);
                     const header = document.querySelector(".nt-header");
@@ -12966,7 +12966,7 @@ _VIEWER_DL_JS +
 
                 const clock24Switch = $("settings24hrSwitch");
                 if (clock24Switch) {
-                    const key24 = 'gust:24hrclock:v1';
+                    const key24 = 'Grapes OS:24hrclock:v1';
                     const is24 = ls.getItem(key24) === 'true';
                     clock24Switch.classList.toggle("on", is24);
                     clock24Switch.onclick = () => {
@@ -13056,7 +13056,7 @@ _VIEWER_DL_JS +
                 }
                 function applySavedLanguage() {
                     try {
-                        var code = ls.getItem('gust:language:v1');
+                        var code = ls.getItem('Grapes OS:language:v1');
                         var lang = (code && code.trim() !== '') ? code : (navigator.language || 'en');
                         if (lang.length > 2) lang = lang.substring(0, 2);
                         document.documentElement.setAttribute('lang', lang);
@@ -13070,7 +13070,7 @@ _VIEWER_DL_JS +
                 applySavedLanguage();
                 setTimeout(function() {
                     try {
-                        var code = ls.getItem('gust:language:v1');
+                        var code = ls.getItem('Grapes OS:language:v1');
                         if (code && code.trim() !== '' && code.trim() !== 'en') {
                             var lang = code.trim().length >= 2 ? code.trim().substring(0, 2) : code.trim();
                             translatePage(lang);
@@ -13079,14 +13079,14 @@ _VIEWER_DL_JS +
                 }, 2000);
                 if (langSelect) {
                     try {
-                        const saved = ls.getItem('gust:language:v1');
+                        const saved = ls.getItem('Grapes OS:language:v1');
                         if (saved) langSelect.value = saved;
                     } catch (_) { }
                 }
                 if (langSave && langSelect) {
                     langSave.onclick = () => {
                         try {
-                            ls.setItem('gust:language:v1', langSelect.value);
+                            ls.setItem('Grapes OS:language:v1', langSelect.value);
                             applySavedLanguage();
                             if (langStatus) showStatusMsg(langStatus, "Language preference saved!", "ok");
                         } catch (_) { }
@@ -13159,7 +13159,7 @@ _VIEWER_DL_JS +
 
                 const spellSwitch = $("settingsSpellSwitch");
                 if (spellSwitch) {
-                    const spellKey = 'gust:spellcheck:v1';
+                    const spellKey = 'Grapes OS:spellcheck:v1';
                     const spellOn = ls.getItem(spellKey) === 'true';
                     spellSwitch.classList.toggle("on", spellOn);
                     document.querySelectorAll('input[type=text], textarea').forEach(el => el.spellcheck = spellOn);
@@ -13167,22 +13167,22 @@ _VIEWER_DL_JS +
                         const nowOn = spellSwitch.classList.toggle("on");
                         try { ls.setItem(spellKey, nowOn ? 'true' : 'false'); } catch (_) { }
                         document.querySelectorAll('input[type=text], textarea').forEach(el => el.spellcheck = nowOn);
-                        try { frame.contentWindow?.postMessage({ type: 'gust:spellcheck', enabled: nowOn }, '*'); } catch (_) { }
+                        try { frame.contentWindow?.postMessage({ type: 'Grapes OS:spellcheck', enabled: nowOn }, '*'); } catch (_) { }
                     };
                 }
 
                 // ── Files & Media settings wiring ──────────────────────────
                 const _mediaSwitches = [
-                    { id: 'mediaPdfSwitch',      key: 'gust:media:pdf:v1',      defaultOn: true  },
-                    { id: 'mediaImgSwitch',      key: 'gust:media:img:v1',      defaultOn: true  },
-                    { id: 'mediaVideoSwitch',    key: 'gust:media:video:v1',    defaultOn: true  },
-                    { id: 'mediaAudioSwitch',    key: 'gust:media:audio:v1',    defaultOn: true  },
-                    { id: 'mediaTextSwitch',     key: 'gust:media:text:v1',     defaultOn: true  },
-                    { id: 'mediaDownloadSwitch', key: 'gust:media:download:v1', defaultOn: false },
-                    { id: 'mediaRangeSwitch',    key: 'gust:media:range:v1',    defaultOn: true  },
-                    { id: 'mediaHeadersSwitch',  key: 'gust:media:headers:v1',  defaultOn: true  },
-                    { id: 'webrtcBlockSwitch',   key: 'gust:webrtc:block:v1',   defaultOn: false },
-                    { id: 'faviconProxySwitch',  key: 'gust:favicon-proxy:v1',  defaultOn: false },
+                    { id: 'mediaPdfSwitch',      key: 'Grapes OS:media:pdf:v1',      defaultOn: true  },
+                    { id: 'mediaImgSwitch',      key: 'Grapes OS:media:img:v1',      defaultOn: true  },
+                    { id: 'mediaVideoSwitch',    key: 'Grapes OS:media:video:v1',    defaultOn: true  },
+                    { id: 'mediaAudioSwitch',    key: 'Grapes OS:media:audio:v1',    defaultOn: true  },
+                    { id: 'mediaTextSwitch',     key: 'Grapes OS:media:text:v1',     defaultOn: true  },
+                    { id: 'mediaDownloadSwitch', key: 'Grapes OS:media:download:v1', defaultOn: false },
+                    { id: 'mediaRangeSwitch',    key: 'Grapes OS:media:range:v1',    defaultOn: true  },
+                    { id: 'mediaHeadersSwitch',  key: 'Grapes OS:media:headers:v1',  defaultOn: true  },
+                    { id: 'webrtcBlockSwitch',   key: 'Grapes OS:webrtc:block:v1',   defaultOn: false },
+                    { id: 'faviconProxySwitch',  key: 'Grapes OS:favicon-proxy:v1',  defaultOn: false },
                 ];
                 _mediaSwitches.forEach(({ id, key, defaultOn }) => {
                     const sw = $(id);
@@ -13213,7 +13213,7 @@ _VIEWER_DL_JS +
             function showTooltip(el, text) {
                 if (tooltipEl) tooltipEl.remove();
                 tooltipEl = document.createElement('div');
-                tooltipEl.className = 'gust-tooltip';
+                tooltipEl.className = 'Grapes OS-tooltip';
                 tooltipEl.textContent = text;
                 document.body.appendChild(tooltipEl);
 
@@ -13339,7 +13339,7 @@ _VIEWER_DL_JS +
                         btn.onclick = () => {
                             const name = shortcutNames[scIdx];
                             if (!name) return;
-                            try { ls.removeItem('gust:sc:' + name); } catch (e) { }
+                            try { ls.removeItem('Grapes OS:sc:' + name); } catch (e) { }
                             const codeEl = document.querySelector('.shortcut-display[data-shortcut="' + name + '"]');
                             if (codeEl) codeEl.textContent = 'Alt + ' + defaultKeys[scIdx];
                             buildShortcutMap();
@@ -13351,7 +13351,7 @@ _VIEWER_DL_JS +
                 });
                 shortcutNames.forEach((name, i) => {
                     try {
-                        const saved = ls.getItem('gust:sc:' + name);
+                        const saved = ls.getItem('Grapes OS:sc:' + name);
                         if (saved) {
                             const codeEl = document.querySelector('.shortcut-display[data-shortcut="' + name + '"]');
                             if (codeEl) codeEl.textContent = 'Alt + ' + saved;
@@ -13383,7 +13383,7 @@ _VIEWER_DL_JS +
             $("shortcutCancel").onclick = hideShortcutEditModal;
             $("shortcutSave").onclick = () => {
                 if (!capturedKey || !editingShortcut) { hideShortcutEditModal(); return; }
-                try { ls.setItem('gust:sc:' + editingShortcut, capturedKey); } catch (e) { }
+                try { ls.setItem('Grapes OS:sc:' + editingShortcut, capturedKey); } catch (e) { }
                 const codeEl = document.querySelector('.shortcut-display[data-shortcut="' + editingShortcut + '"]');
                 if (codeEl) codeEl.textContent = 'Alt + ' + capturedKey;
                 buildShortcutMap();
@@ -13740,7 +13740,7 @@ _VIEWER_DL_JS +
                 scMap = {};
                 for (const [name, def] of Object.entries(SC_DEFAULTS)) {
                     let key = def;
-                    try { key = ls.getItem('gust:sc:' + name) || def; } catch (e) { }
+                    try { key = ls.getItem('Grapes OS:sc:' + name) || def; } catch (e) { }
                     scMap[key.toUpperCase()] = name;
                 }
             }
@@ -13752,7 +13752,7 @@ _VIEWER_DL_JS +
                 const modal = $("shortcutEditModal");
                 if (modal && modal.style.display === 'flex') return;
                 let scEnabled = true;
-                try { if (ls.getItem('gust:shortcutsEnabled') === '0') scEnabled = false; } catch(e) {}
+                try { if (ls.getItem('Grapes OS:shortcutsEnabled') === '0') scEnabled = false; } catch(e) {}
                 if (!scEnabled) return;
 
                 if (e.altKey && e.key !== 'Alt') {
@@ -13766,13 +13766,13 @@ _VIEWER_DL_JS +
             });
 
 
-            const TUTORIAL_KEY = 'gust:tutorial:v1';
+            const TUTORIAL_KEY = 'Grapes OS:tutorial:v1';
 
             const tutSteps = [
                 {
                     target: null,
                     icon: '<i class="fas fa-wind"></i>',
-                    title: 'Welcome to GUST',
+                    title: 'Welcome to Grapes OS',
                     body: 'A fast, private browser by Nautilus Labs. This tour covers all the key controls and takes under a minute, and can be restarted anytime from Settings.',
                     pos: 'center'
                 },
@@ -13809,7 +13809,7 @@ _VIEWER_DL_JS +
                     target: '#blockToggle',
                     icon: '<i class="fas fa-shield-halved"></i>',
                     title: 'Ad and Tracker Blocking',
-                    body: 'GUST blocks ads and trackers by default. The badge shows your current status. Click on it to toggle it off if a site is not loading correctly.',
+                    body: 'Grapes OS blocks ads and trackers by default. The badge shows your current status. Click on it to toggle it off if a site is not loading correctly.',
                     pos: 'below-left'
                 },
                 {
@@ -13844,7 +13844,7 @@ _VIEWER_DL_JS +
                     target: '#settingsBtn',
                     icon: '<i class="fas fa-gear"></i>',
                     title: 'Settings',
-                    body: 'Configure the WISP server, search engine, wallpaper, font size, cache, shortcuts and more. You can also read about Gust or restart the tutorial from here.',
+                    body: 'Configure the WISP server, search engine, wallpaper, font size, cache, shortcuts and more. You can also read about Grapes OS or restart the tutorial from here.',
                     pos: 'below-left'
                 },
                 {
@@ -13876,7 +13876,7 @@ _VIEWER_DL_JS +
                     target: '#ntGithubBtn',
                     icon: '<i class="fab fa-github"></i>',
                     title: 'GitHub',
-                    body: 'GUST is open source. Click to view the repository, report issues, or contribute.',
+                    body: 'Grapes OS is open source. Click to view the repository, report issues, or contribute.',
                     pos: 'above',
                     requiresNewTab: true
                 },
@@ -13884,7 +13884,7 @@ _VIEWER_DL_JS +
                     target: null,
                     icon: '<i class="fas fa-check-circle"></i>',
                     title: "You're all set!",
-                    body: "That's the full tour! GUST is made with lots of love by the Nautilus Labs dev team, and we'd be overjoyed if you gave our repository a star on GitHub. Enjoy the experience!",
+                    body: "That's the full tour! Grapes OS is made with lots of love by the Nautilus Labs dev team, and we'd be overjoyed if you gave our repository a star on GitHub. Enjoy the experience!",
                     pos: 'center'
                 }
             ];
@@ -13929,8 +13929,8 @@ _VIEWER_DL_JS +
                 setTimeout(() => { ov.style.display = 'none'; }, 350);
                 try { ls.setItem(TUTORIAL_KEY, 'done'); } catch (e) { }
                
-                _gustAnimLocked = false;
-                playGustAnimation(400);
+                _Grapes OSAnimLocked = false;
+                playGrapes OSAnimation(400);
                 const sr = document.getElementById('spotRect');
                 if (sr) { sr.setAttribute('width', '0'); sr.setAttribute('height', '0'); }
                 const cloneWrapEnd = document.getElementById('tutorialCloneWrap');
@@ -14199,10 +14199,10 @@ _VIEWER_DL_JS +
                 if (ts) ts.addEventListener('click', endTutorial);
             });
 
-            window.__gustStartTutorial = () => startTutorial(true);
+            window.__Grapes OSStartTutorial = () => startTutorial(true);
 
             try {
-                if (ls.getItem('gust:panelsleft') === '1') {
+                if (ls.getItem('Grapes OS:panelsleft') === '1') {
                     document.body.classList.add('panels-left');
                 }
             } catch (e) { }
@@ -14237,7 +14237,7 @@ _VIEWER_DL_JS +
 
             try {
                 if (ls.getItem(TUTORIAL_KEY) !== 'done') {
-                    _gustAnimLocked = true;
+                    _Grapes OSAnimLocked = true;
                 }
             } catch(e) {}
 
@@ -14301,7 +14301,7 @@ _VIEWER_DL_JS +
             // Show a minimal splash overlay — clicking it provides the gesture and enters fullscreen.
             (function() {
                 let autoFS = true;
-                try { if (ls.getItem('gust:autoFullscreen') === '0') autoFS = false; } catch(e) {}
+                try { if (ls.getItem('Grapes OS:autoFullscreen') === '0') autoFS = false; } catch(e) {}
                 if (!autoFS) return;
 
                 const onFirstGesture = function() {
@@ -14322,10 +14322,10 @@ _VIEWER_DL_JS +
                     if (enabled) { scSw.classList.add('on'); if (scList) { scList.style.opacity = ''; scList.style.pointerEvents = ''; } }
                     else { scSw.classList.remove('on'); if (scList) { scList.style.opacity = '0.35'; scList.style.pointerEvents = 'none'; } }
                 };
-                try { applyScState(ls.getItem('gust:shortcutsEnabled') !== '0'); } catch(e) { applyScState(true); }
+                try { applyScState(ls.getItem('Grapes OS:shortcutsEnabled') !== '0'); } catch(e) { applyScState(true); }
                 scSw.addEventListener('click', () => {
                     const isOn = scSw.classList.toggle('on');
-                    try { ls.setItem('gust:shortcutsEnabled', isOn ? '1' : '0'); } catch(e) {}
+                    try { ls.setItem('Grapes OS:shortcutsEnabled', isOn ? '1' : '0'); } catch(e) {}
                     applyScState(isOn);
                 });
             }, 400);
@@ -14335,12 +14335,12 @@ _VIEWER_DL_JS +
                 const sw = document.getElementById('settingsAutoFullscreenSwitch');
                 if (!sw) return;
                 try {
-                    if (ls.getItem('gust:autoFullscreen') === '0') sw.classList.remove('on');
+                    if (ls.getItem('Grapes OS:autoFullscreen') === '0') sw.classList.remove('on');
                     else sw.classList.add('on');
                 } catch(e) {}
                 sw.addEventListener('click', () => {
                     const isOn = sw.classList.toggle('on');
-                    try { ls.setItem('gust:autoFullscreen', isOn ? '1' : '0'); } catch(e) {}
+                    try { ls.setItem('Grapes OS:autoFullscreen', isOn ? '1' : '0'); } catch(e) {}
                 });
             }, 400);
             // ─────────────────────────────────────────────────────────────────
@@ -14351,10 +14351,10 @@ _VIEWER_DL_JS +
             setTimeout(() => {
                 // Toggle switches
                 const fallbackSwitches = [
-                    { id: 'fallbackEnabledSwitch',  key: 'gust:fallback:enabled',  def: '1' },
-                    { id: 'fallback5xxSwitch',      key: 'gust:fallback:5xx',      def: '1' },
-                    { id: 'fallbackTimeoutSwitch',  key: 'gust:fallback:timeout',  def: '1' },
-                    { id: 'fallbackDnsSwitch',      key: 'gust:fallback:dns',      def: '0' },
+                    { id: 'fallbackEnabledSwitch',  key: 'Grapes OS:fallback:enabled',  def: '1' },
+                    { id: 'fallback5xxSwitch',      key: 'Grapes OS:fallback:5xx',      def: '1' },
+                    { id: 'fallbackTimeoutSwitch',  key: 'Grapes OS:fallback:timeout',  def: '1' },
+                    { id: 'fallbackDnsSwitch',      key: 'Grapes OS:fallback:dns',      def: '0' },
                 ];
                 fallbackSwitches.forEach(({ id, key, def }) => {
                     const sw = document.getElementById(id);
@@ -14376,21 +14376,21 @@ _VIEWER_DL_JS +
                 const fbReset  = document.getElementById('settingsFallbackWispReset');
                 const fbStatus = document.getElementById('settingsFallbackWispStatus');
                 if (fbInput) {
-                    try { fbInput.value = ls.getItem('gust:fallback:wisp') || ''; } catch(e) {}
+                    try { fbInput.value = ls.getItem('Grapes OS:fallback:wisp') || ''; } catch(e) {}
                 }
                 if (fbSave) {
                     fbSave.addEventListener('click', () => {
                         try {
                             const v = fbInput ? fbInput.value.trim() : '';
-                            if (v) ls.setItem('gust:fallback:wisp', v);
-                            else   ls.removeItem('gust:fallback:wisp');
+                            if (v) ls.setItem('Grapes OS:fallback:wisp', v);
+                            else   ls.removeItem('Grapes OS:fallback:wisp');
                             if (fbStatus) showStatusMsg(fbStatus, 'Saved.', 'ok');
                         } catch(e) {}
                     });
                 }
                 if (fbReset) {
                     fbReset.addEventListener('click', () => {
-                        try { ls.removeItem('gust:fallback:wisp'); } catch(e) {}
+                        try { ls.removeItem('Grapes OS:fallback:wisp'); } catch(e) {}
                         if (fbInput) fbInput.value = '';
                         if (fbStatus) showStatusMsg(fbStatus, 'Cleared.', 'ok');
                     });
@@ -14412,11 +14412,11 @@ _VIEWER_DL_JS +
                         if (current < max) { current = Math.min(max, current + step); valEl.textContent = current; try { ls.setItem(key, String(current)); } catch(e) {} }
                     });
                 };
-                makeCounter('mainRetryMinus',     'mainRetryPlus',     'mainRetryVal',     'gust:main:retries',     1, 10, '3');
-                makeCounter('fallbackRetryMinus', 'fallbackRetryPlus', 'fallbackRetryVal', 'gust:fallback:retries', 1, 10, '3');
-                makeCounter('fallbackDelayMinus', 'fallbackDelayPlus', 'fallbackDelayVal', 'gust:fallback:delay',   0,  30, '3');
-                makeCounter('scriptLimitMinus',   'scriptLimitPlus',   'scriptLimitVal',   'gust:render:scriptlimit', 50, 500, '250', 25);
-                makeCounter('imgLimitMinus',      'imgLimitPlus',      'imgLimitVal',      'gust:render:imglimit',    0, 1000, '300', 25);
+                makeCounter('mainRetryMinus',     'mainRetryPlus',     'mainRetryVal',     'Grapes OS:main:retries',     1, 10, '3');
+                makeCounter('fallbackRetryMinus', 'fallbackRetryPlus', 'fallbackRetryVal', 'Grapes OS:fallback:retries', 1, 10, '3');
+                makeCounter('fallbackDelayMinus', 'fallbackDelayPlus', 'fallbackDelayVal', 'Grapes OS:fallback:delay',   0,  30, '3');
+                makeCounter('scriptLimitMinus',   'scriptLimitPlus',   'scriptLimitVal',   'Grapes OS:render:scriptlimit', 50, 500, '250', 25);
+                makeCounter('imgLimitMinus',      'imgLimitPlus',      'imgLimitVal',      'Grapes OS:render:imglimit',    0, 1000, '300', 25);
 
                 // Advanced Rendering — Save / Reset
                 (() => {
@@ -14428,8 +14428,8 @@ _VIEWER_DL_JS +
                     if (saveBtn) {
                         saveBtn.addEventListener('click', () => {
                             try {
-                                if (scriptEl) ls.setItem('gust:render:scriptlimit', scriptEl.textContent.trim());
-                                if (imgEl)    ls.setItem('gust:render:imglimit',    imgEl.textContent.trim());
+                                if (scriptEl) ls.setItem('Grapes OS:render:scriptlimit', scriptEl.textContent.trim());
+                                if (imgEl)    ls.setItem('Grapes OS:render:imglimit',    imgEl.textContent.trim());
                                 if (statusEl) showStatusMsg(statusEl, 'Saved — applies on next page load.', 'ok');
                             } catch(e) {}
                         });
@@ -14437,8 +14437,8 @@ _VIEWER_DL_JS +
                     if (resetBtn) {
                         resetBtn.addEventListener('click', () => {
                             try {
-                                ls.removeItem('gust:render:scriptlimit');
-                                ls.removeItem('gust:render:imglimit');
+                                ls.removeItem('Grapes OS:render:scriptlimit');
+                                ls.removeItem('Grapes OS:render:imglimit');
                                 if (scriptEl) scriptEl.textContent = '250';
                                 if (imgEl)    imgEl.textContent    = '300';
                                 if (statusEl) showStatusMsg(statusEl, 'Reset to defaults.', 'ok');
@@ -14461,18 +14461,18 @@ _VIEWER_DL_JS +
 
                 // Populate from storage
                 try {
-                    reqInput.value  = ls.getItem('gust:ua:request:v1') || '';
-                    pageInput.value = ls.getItem('gust:ua:page:v1')    || '';
+                    reqInput.value  = ls.getItem('Grapes OS:ua:request:v1') || '';
+                    pageInput.value = ls.getItem('Grapes OS:ua:page:v1')    || '';
                 } catch(e) {}
 
                 saveBtn.addEventListener('click', () => {
                     try {
                         const rVal = reqInput.value.trim();
                         const pVal = pageInput.value.trim();
-                        if (rVal)  ls.setItem('gust:ua:request:v1', rVal);
-                        else       ls.removeItem('gust:ua:request:v1');
-                        if (pVal)  ls.setItem('gust:ua:page:v1', pVal);
-                        else       ls.removeItem('gust:ua:page:v1');
+                        if (rVal)  ls.setItem('Grapes OS:ua:request:v1', rVal);
+                        else       ls.removeItem('Grapes OS:ua:request:v1');
+                        if (pVal)  ls.setItem('Grapes OS:ua:page:v1', pVal);
+                        else       ls.removeItem('Grapes OS:ua:page:v1');
                         if (statusEl) {
                             statusEl.textContent = 'Saved — reload a page to apply.';
                             setTimeout(() => { statusEl.textContent = ''; }, 3000);
@@ -14483,8 +14483,8 @@ _VIEWER_DL_JS +
                 if (resetBtn) {
                     resetBtn.addEventListener('click', () => {
                         try {
-                            ls.removeItem('gust:ua:request:v1');
-                            ls.removeItem('gust:ua:page:v1');
+                            ls.removeItem('Grapes OS:ua:request:v1');
+                            ls.removeItem('Grapes OS:ua:page:v1');
                         } catch(e) {}
                         reqInput.value  = '';
                         pageInput.value = '';
